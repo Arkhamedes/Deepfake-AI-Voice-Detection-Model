@@ -1,0 +1,6 @@
+10s_clips/AUDIO_CLEAN/human/*
+10s_clips/AUDIO_CLEAN/nonhuman/*
+10s_log_mel_shuffled.pkl
+10s_log_mel_unshuffled.pkl
+!10s_clips/AUDIO_CLEAN/human/
+!10s_clips/AUDIO_CLEAN/nonhuman/
