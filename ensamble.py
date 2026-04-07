@@ -174,8 +174,8 @@ class CRNN(nn.Module):
         x = x.view(batch_size, time_steps, channels * mel_bins)
 
         reduced_lengths = torch.clamp(lengths // 8, min=1)
-        print("Original Lengths:", lengths.shape)
-        print("Reduced Lengths:", reduced_lengths.shape)
+        #print("Original Lengths:", lengths.shape)
+        #print("Reduced Lengths:", reduced_lengths.shape)
       
 
         _, (hidden, _) = self.rnn(x)
@@ -292,44 +292,36 @@ def load_pkl(data_file):
     return train_set,test_set,val_set
 
 def audio_to_log_mel(
-    file_path: str,
+    segments: list,
     sample_rate: int = SAMPLE_RATE,
     n_mels: int = N_MELS,
     n_fft: int = N_FFT,
     hop_length: int = HOP_LENGTH
 ) -> np.ndarray:
-    """
-    Load audio and convert to standardized log-Mel spectrogram.
-    Output shape: (n_mels, time_frames)
-    """
-    try:
-        y, sr = librosa.load(file_path, sr=sample_rate, mono=True)
-    except Exception as e:
-        raise RuntimeError(f"Failed to load audio: {file_path}\n{e}")
+    log = []
+    for segment in segments:
+            
+        # Normalize waveform
+        max_val = np.max(np.abs(segment)) + 1e-9
+        segment= segment / max_val
 
-    if len(y) == 0:
-        raise ValueError(f"Empty audio file: {file_path}")
+        mel = librosa.feature.melspectrogram(
+            y=segment,
+            sr=sample_rate,
+            n_fft=n_fft,
+            hop_length=hop_length,
+            n_mels=n_mels
+        )
 
-    # Normalize waveform
-    max_val = np.max(np.abs(y)) + 1e-9
-    y = y / max_val
+        log_mel = librosa.power_to_db(mel, ref=np.max)
 
-    mel = librosa.feature.melspectrogram(
-        y=y,
-        sr=sr,
-        n_fft=n_fft,
-        hop_length=hop_length,
-        n_mels=n_mels
-    )
+        # Per-sample normalization
+        mean = np.mean(log_mel)
+        std = np.std(log_mel) + 1e-9
+        log_mel = (log_mel - mean) / std
+        log.append(log_mel)
 
-    log_mel = librosa.power_to_db(mel, ref=np.max)
-
-    # Per-sample normalization
-    mean = np.mean(log_mel)
-    std = np.std(log_mel) + 1e-9
-    log_mel = (log_mel - mean) / std
-
-    return log_mel.astype(np.float32)
+    return np.stack(log).astype(np.float32)
 # ===================ENSEMBLE===================
 class EnsembleAveraging(nn.Module):
     def __init__(self, models):
@@ -341,7 +333,7 @@ class EnsembleAveraging(nn.Module):
         # Average the predictions
         prediction_label = []
         for i in range(len(predictions)):
-            print(i)
+            
             probs = torch.sigmoid(predictions[i])
             predicted = (probs > 0.5).long()
             prediction_label.append(predicted.item())
@@ -350,30 +342,59 @@ class EnsembleAveraging(nn.Module):
         final_prediction = max(set(prediction_label), key=prediction_label.count)
         return final_prediction
 
+
+
+def audio_splitter(file_path, segment_length=10, sample_rate=SAMPLE_RATE):
+    y, sr = librosa.load(file_path, sr=sample_rate, mono=True)
+    total_length = len(y)
+    segment_samples = segment_length * sample_rate
+    segments = []
+    for start in range(0, total_length, segment_samples):
+        end = min(start + segment_samples, total_length)
+        segment = y[start:end]
+        if len(segment) < segment_samples:
+            pad_length = segment_samples - len(segment)
+            segment = np.pad(segment, (0, pad_length), mode='constant')
+        segments.append(segment)
+    return segments
 # ===================MAIN===================
-if __name__ == "__main__":
-    ResNext_checkpoint = torch.load("best_ResNEXT.pth", weights_only=True)
 
-    CRNN_checkpoint = torch.load("best_crnn_model.pth", weights_only=True)
+ResNext_checkpoint = torch.load("best_ResNEXT.pth", weights_only=True)
 
-    UNetcheckpoint = torch.load("BEST_UNET_10sec.pt", weights_only=True)
+CRNN_checkpoint = torch.load("best_crnn_model.pth", weights_only=True)
+
+UNetcheckpoint = torch.load("BEST_UNET_10sec.pt", weights_only=True)
 
 
-    ResNext = CQC_mode().to(device)
-    CRNN_model = CRNN().to(device)
-    UNet  = UNetEncoderClassifier(in_channels=1, base_filters=32).to(device)
-    ResNext.load_state_dict(ResNext_checkpoint["model_state_dict"])
-    CRNN_model.load_state_dict(CRNN_checkpoint)
-    UNet.load_state_dict(UNetcheckpoint)
-    Models = [ResNext,UNet,CRNN_model]
+ResNext = CQC_mode().to(device)
+CRNN_model = CRNN().to(device)
+UNet  = UNetEncoderClassifier(in_channels=1, base_filters=32).to(device)
+ResNext.load_state_dict(ResNext_checkpoint["model_state_dict"])
+CRNN_model.load_state_dict(CRNN_checkpoint)
+UNet.load_state_dict(UNetcheckpoint)
+Models = [ResNext,UNet,CRNN_model]
     
-    ensemble = EnsembleAveraging(Models)
-    testsample = "Test_1.mp3"
-    mel = audio_to_log_mel(testsample)
-    mel_tensor = torch.tensor(mel, dtype=torch.float32).unsqueeze(0).unsqueeze(0).to(device)  # (1, 1, n_mels, time_frames)
-    #print(mel_tensor.shape)
-    ensemble.eval()
-    with torch.no_grad():
-        output = ensemble.forward(mel_tensor)
-        print("Ensemble Prediction:", output)
-        #print("Ensemble Output:", output.item())
+ensemble = EnsembleAveraging(Models)
+files = []
+import os
+folder = os.listdir("fake")
+for i in folder:
+    if i.endswith('.mp3'):
+        files.append(i)
+if __name__ == "__main__":
+    for testsample in files:
+        
+        segments = audio_splitter(f"fake/{testsample}", segment_length=10)    
+        predictions = []
+        mel_list = audio_to_log_mel(segments)
+        for mel in mel_list:
+            mel_tensor = torch.tensor(mel, dtype=torch.float32).unsqueeze(0).unsqueeze(0).to(device)  # (1, 1, n_mels, time_frames)
+            #print(mel_tensor.shape)
+            ensemble.eval()
+            with torch.no_grad():
+                output = ensemble.forward(mel_tensor)
+                predictions.append(output)
+                #print("Ensemble Prediction:", output)
+                #print("Ensemble Output:", output.item())
+        final_prediction = 1 if predictions.count(1) > 0.75 * len(predictions) else 0
+        print("Final Prediction for the audio file:", final_prediction)
