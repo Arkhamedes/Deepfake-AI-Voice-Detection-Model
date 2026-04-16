@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "light": "/home_4/assets/img/logos/1.png",
+    "dark": "/home_4/assets/img/logos/01.png"
+  },
+  {
+    "id": 2,
+    "light": "/home_4/assets/img/logos/2.png",
+    "dark": "/home_4/assets/img/logos/02.png"
+  },
+  {
+    "id": 3,
+    "light": "/home_4/assets/img/logos/3.png",
+    "dark": "/home_4/assets/img/logos/03.png"
+  },
+  {
+    "id": 4,
+    "light": "/home_4/assets/img/logos/4.png",
+    "dark": "/home_4/assets/img/logos/05.png"
+  },
+  {
+    "id": 5,
+    "light": "/home_4/assets/img/logos/5.png",
+    "dark": "/home_4/assets/img/logos/05.png"
+  }
+]

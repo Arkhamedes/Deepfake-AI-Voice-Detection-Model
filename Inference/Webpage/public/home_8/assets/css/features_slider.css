@@ -1,0 +1,21 @@
+/* --------------- features-slider style8 --------------- */
+.tc-features-slider-style8 {
+  padding: 50px 0;
+}
+.tc-features-slider-style8 .slide-link {
+  font-size: 100px;
+  color: #999;
+}
+.tc-features-slider-style8 .slide-link:hover {
+  color: var(--color-green1) !important;
+}
+.tc-features-slider-style8 .tc-features-slider8 .swiper-wrapper {
+  -webkit-transition-timing-function: linear !important;
+  transition-timing-function: linear !important;
+  position: relative;
+}
+.tc-features-slider-style8 .tc-features-slider8 .swiper-slide {
+  width: -webkit-max-content !important;
+  width: -moz-max-content !important;
+  width: max-content !important;
+}

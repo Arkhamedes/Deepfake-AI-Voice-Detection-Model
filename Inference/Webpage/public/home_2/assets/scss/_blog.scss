@@ -1,0 +1,89 @@
+/* --------------- footer style2 --------------- */
+.tc-blog-style2 {
+    position: relative;
+    border-radius: 0 0 50px 50px;
+
+    .content{
+        position: relative;
+        padding: 130px 0;
+        border-top: 1px solid #fff3;
+
+        .blog-card{
+            position: relative;
+            padding: 50px 0;
+            border-bottom: 1px solid #fff3;
+            min-height: 225px;
+            overflow: hidden;
+
+            &:hover{
+                .img{
+                    opacity: 1;
+                    top: 0;
+                    filter: blur(0);
+                }
+                .button_su{
+                    opacity: 1;
+                    top: calc(50%);
+                }
+            }
+
+            &:last-of-type{
+                border: 0;
+            }
+
+            .img{
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                z-index: 2;
+                transition: all 0.3s ease;
+                opacity: 0;
+                top: 50px;
+                filter: blur(10px);
+            }
+
+            .button_su{
+                position: absolute;
+                left: 50%;
+                transform: translate(-50% , -50%);
+                z-index: 5;
+                transition: all 0.3s ease;
+                transition-delay: 0.2;
+                opacity: 0;
+                top: calc(50% - 50px);
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .tc-blog-style2 {
+        .content {
+            .blog-card {
+                &:last-of-type {
+                    padding-bottom: 0;
+                }
+                .img {
+                    position: relative;
+                    top: 0;
+                    height: 250px;
+                    opacity: 1;
+                    top: 0;
+                    filter: blur(0);
+                    margin-bottom: 30px;
+                }
+                .button_su {
+                    position: relative;
+                    top: 0;
+                    left: 0;
+                    opacity: 1;
+                    transform: none;
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+}

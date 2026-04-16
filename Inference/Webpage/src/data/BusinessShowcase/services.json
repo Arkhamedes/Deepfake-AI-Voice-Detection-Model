@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "icon": "/home_6/assets/img/icons/1.png",
+    "title": "Strategic Consulting",
+    "details": "Must work closely with contractors, subcontractors, & professional"
+  },
+  {
+    "id": 2,
+    "icon": "/home_6/assets/img/icons/2.png",
+    "title": "Business Growth",
+    "details": "Must work closely with contractors, subcontractors, & professional"
+  },
+  {
+    "id": 3,
+    "icon": "/home_6/assets/img/icons/3.png",
+    "title": "Support & Planning",
+    "details": "Must work closely with contractors, subcontractors, & professional"
+  },
+  {
+    "id": 4,
+    "icon": "/home_6/assets/img/icons/4.png",
+    "title": "Digital Marketing",
+    "details": "Must work closely with contractors, subcontractors, & professional"
+  },
+  {
+    "id": 5,
+    "icon": "/home_6/assets/img/icons/5.png",
+    "title": "Loan & Advertising",
+    "details": "Must work closely with contractors, subcontractors, & professional"
+  },
+  {
+    "id": 6,
+    "icon": "/home_6/assets/img/icons/6.png",
+    "title": "Branding & Design",
+    "details": "Must work closely with contractors, subcontractors, & professional"
+  }
+]

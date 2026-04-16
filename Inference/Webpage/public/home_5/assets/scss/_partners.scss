@@ -1,0 +1,36 @@
+/* --------------- partners style5 --------------- */
+.tc-partners-style5 {
+    padding: 150px 0;
+    overflow: hidden;
+
+    .logos-slider5{
+
+        .swiper-wrapper {
+            -webkit-transition-timing-function: linear !important;
+            transition-timing-function: linear !important;
+            position: relative;
+        }
+
+        .swiper-slide{
+            // width: max-content !important;
+            text-align: center;
+        }
+
+    }
+
+
+    .logos{
+        .logo{
+            img{
+                max-height: 55px;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-partners-style5 {
+
+    }
+}

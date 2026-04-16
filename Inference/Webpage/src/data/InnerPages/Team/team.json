@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "picture": "/inner_pages/assets/img/team/team1.jpg",
+    "name": "Helmoson N. Nelson",
+    "position": "head of idea"
+  },
+  {
+    "id": 2,
+    "picture": "/inner_pages/assets/img/team/team2.jpg",
+    "name": "Rosalina D. William",
+    "position": "ceo"
+  },
+  {
+    "id": 3,
+    "picture": "/inner_pages/assets/img/team/team3.png",
+    "name": "Rosalina D. William",
+    "position": "ceo"
+  },
+  {
+    "id": 4,
+    "picture": "/inner_pages/assets/img/team/team4.png",
+    "name": "Rosalina D. William",
+    "position": "ceo"
+  },
+  {
+    "id": 5,
+    "picture": "/inner_pages/assets/img/team/team5.png",
+    "name": "Rosalina D. William",
+    "position": "ceo"
+  },
+  {
+    "id": 6,
+    "picture": "/inner_pages/assets/img/team/team6.png",
+    "name": "Rosalina D. William",
+    "position": "ceo"
+  },
+  {
+    "id": 7,
+    "picture": "/inner_pages/assets/img/team/team7.png",
+    "name": "Rosalina D. William",
+    "position": "ceo"
+  },
+  {
+    "id": 8,
+    "picture": "/inner_pages/assets/img/team/team8.png",
+    "name": "Rosalina D. William",
+    "position": "ceo"
+  }
+]

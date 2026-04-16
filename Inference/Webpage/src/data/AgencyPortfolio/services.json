@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "icon": "/home_1/assets/img/services/branding.svg",
+    "title": "Brand Identity",
+    "details": "We bringing the history of your brand to the forefront gives an emotional dimension to your visual identity,",
+    "list": [
+      "Brand Strategy",
+      "Brand Consulting",
+      "Photography",
+      "3D Design & Illustration"
+    ]
+  },
+  {
+    "id": 2,
+    "icon": "/home_1/assets/img/services/interaction.svg",
+    "title": "Interaction",
+    "details": "We design and development digital products to help increase highest conversion rate for your business",
+    "list": [
+      "Website & Mobile App Design",
+      "UX & Product Design",
+      "Product Development",
+      "CRM & System Management",
+      "TVC & Motion Design"
+    ]
+  },
+  {
+    "id": 3,
+    "icon": "/home_1/assets/img/services/marketing.svg",
+    "title": "SEO & Marketing",
+    "details": "Help increase the traffic into your business via marketing online & offline. Improve the rank of your business on the world",
+    "list": [
+      "Marketing Strategy & Consulting",
+      "SEO / PPC",
+      "Social Media Marketing"
+    ]
+  }
+]

@@ -1,0 +1,104 @@
+/* --------------- header style9 --------------- */
+.tc-header-style9 {
+    padding: 0 5vw;
+    .header-content{
+        position: relative;
+        padding: 70px 0 110px;
+        background-color: #f6f6f6;
+        border-radius: 30px;
+        overflow: hidden;
+        
+        .top-info{
+            .info{
+                .rotate-box{
+                    position: relative;
+                    width: 150px;
+                    height: 150px;
+                    display: block;
+                    .icon{
+                       position: absolute;
+                       left: 50%;
+                       top: 50%;
+                       padding: 5px;
+                    //    transform: translate(-50% - 50%);
+                       transform: translate(-50%);
+                    }
+                    .rotate-text {
+                       animation: rotateText 20s linear infinite;
+                       font-weight: bold;
+                       text-transform: uppercase;
+                       position: absolute;
+                       left: calc(50% - 75px);
+                        top: 20px;
+                        border-radius: 50%;
+                        background-color: #fff;
+                    }
+                    .rotate-circle svg {
+                        width: 150px;
+                        height: 150px;
+                        fill: #000;
+                        transform: scale(1.25);
+                    }
+              
+                    @keyframes rotateText {
+                       0% {
+                          transform: rotate(360deg);
+                       }
+                       100% {
+                          transform: rotate(0deg);
+                       }
+                    }
+                 }
+            }
+        }
+
+        .features-cards{
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 -10px;
+            .feat-card{
+                text-align: center;
+                padding: 50px 20px;
+                background-color: #fff;
+                border-radius: 10px;
+                margin: 10px;
+                width: calc(20% - 20px);
+                .icon{
+                    width: 140px;
+                    height: 140px;
+                    line-height: 140px;
+                    border-radius: 50%;
+                    border: 1px solid #9993;
+                    margin: 0 auto;
+                    img{
+                        width: 55px;
+                        height: 55px;
+                        object-fit: contain;
+                    }
+                }
+            }
+        }
+        
+        .pattern{
+            position: absolute;
+            top: -50px;
+            right: -50px;
+            pointer-events: none;
+            width: 120%;
+            max-width: unset;
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .tc-header-style9 {
+        .header-content {
+            padding-bottom: 10px;
+            .features-cards {
+                .feat-card {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

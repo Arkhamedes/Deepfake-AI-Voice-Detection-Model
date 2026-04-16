@@ -1,0 +1,33 @@
+/* --------------- contact style3 --------------- */
+.tc-contact-style3 {
+  padding: 70px 0;
+  background-color: #e9e8ee;
+}
+.tc-contact-style3 .form .form-group {
+  margin-bottom: 30px;
+}
+.tc-contact-style3 .form .form-group .form-control {
+  border: 0;
+  border-bottom: 2px solid #999;
+  border-radius: 0;
+  background-color: transparent;
+  padding: 10px 0;
+}
+.tc-contact-style3 .form .form-group .form-control:focus {
+  border-color: #000;
+}
+.tc-contact-style3 .form .form-group .form-control::-webkit-input-placeholder {
+  color: #999;
+}
+.tc-contact-style3 .form .form-group .form-control::-moz-placeholder {
+  color: #999;
+}
+.tc-contact-style3 .form .form-group .form-control:-ms-input-placeholder {
+  color: #999;
+}
+.tc-contact-style3 .form .form-group .form-control::-ms-input-placeholder {
+  color: #999;
+}
+.tc-contact-style3 .form .form-group .form-control::placeholder {
+  color: #999;
+}

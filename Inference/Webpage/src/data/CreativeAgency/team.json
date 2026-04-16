@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "picture": "/home_5/assets/img/team1.jpg",
+    "position": "head of idea",
+    "name": "Helmoson N. Nelson"
+  },
+  {
+    "id": 2,
+    "picture": "/home_5/assets/img/team2.jpg",
+    "position": "ceo",
+    "name": "Rosalina D. William"
+  }
+]

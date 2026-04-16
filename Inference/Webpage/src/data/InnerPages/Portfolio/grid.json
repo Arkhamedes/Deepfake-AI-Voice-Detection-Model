@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "image": "/inner_pages/assets/img/projects/proj1.png",
+    "tags": "design, ux",
+    "title": "Astro Website Design"
+  },
+  {
+    "id": 2,
+    "image": "/inner_pages/assets/img/projects/proj2.png",
+    "tags": "development",
+    "title": "Homan App Development"
+  },
+  {
+    "id": 3,
+    "image": "/inner_pages/assets/img/projects/proj3.png",
+    "tags": "games",
+    "title": "SISCO PvP Games"
+  },
+  {
+    "id": 4,
+    "image": "/inner_pages/assets/img/projects/proj4.png",
+    "tags": "branding",
+    "title": "Maono Cool Branding"
+  },
+  {
+    "id": 5,
+    "image": "/inner_pages/assets/img/projects/proj5.png",
+    "tags": "website",
+    "title": "Astro Website Design"
+  },
+  {
+    "id": 6,
+    "image": "/inner_pages/assets/img/projects/proj6.png",
+    "tags": "ui design",
+    "title": "Tiko Financial App Design"
+  },
+  {
+    "id": 7,
+    "image": "/inner_pages/assets/img/projects/proj7.png",
+    "tags": "mockup",
+    "title": "MacBook Pro Mockup"
+  },
+  {
+    "id": 8,
+    "image": "/inner_pages/assets/img/projects/proj8.png",
+    "tags": "website",
+    "title": "Tatti Web Branding"
+  },
+  {
+    "id": 9,
+    "image": "/inner_pages/assets/img/projects/proj9.png",
+    "tags": "app design",
+    "title": "iQuno News App Design"
+  },
+  {
+    "id": 10,
+    "image": "/inner_pages/assets/img/projects/proj10.png",
+    "tags": "nft",
+    "title": "Limzon NFT Website"
+  },
+  {
+    "id": 11,
+    "image": "/inner_pages/assets/img/projects/proj11.png",
+    "tags": "mockup",
+    "title": "MacBook Pro Mockup"
+  },
+  {
+    "id": 12,
+    "image": "/inner_pages/assets/img/projects/proj12.png",
+    "tags": "app design",
+    "title": "Nonzi Financial App"
+  }
+]

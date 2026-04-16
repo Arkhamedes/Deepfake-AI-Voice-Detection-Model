@@ -1,0 +1,330 @@
+/* --------------- page-about-style1 --------------- */
+.page-about-style1 {
+
+    /* --------------- header style1 --------------- */
+    .tc-about-header-style1 {
+        position: relative;
+        z-index: 10;
+        margin-top: -50px;
+        border-radius: 50px 50px 0 0;
+        overflow: hidden;
+        background-color: #1b1b1e;
+        padding: 250px 0 60px;
+
+        .info{
+            position: relative;
+            z-index: 10;
+            h6{
+                color: #b0b0b0;
+                text-transform: uppercase;
+                margin-bottom: 40px;
+                font-weight: 400;
+            }
+            h1{
+                font-size: 60px;
+                font-weight: 600;
+                color: #fff;
+                margin-bottom: 200px;
+            }
+        }
+
+        .pages-links{
+            display: flex;
+            align-items: center;
+            a{
+                padding: 8px 25px;
+                border: 1px solid #fff3;
+                border-radius: 30px;
+                text-transform: uppercase;
+                color: #fff;
+                &.active{
+                    background-color: var(--color-blue1);
+                    border-color: var(--color-blue1);
+                    color: #fff;
+                }
+            }
+        }
+
+        .back-img{
+            position: absolute;
+            top: 0;
+            right: 15%;
+            width: 35%;
+            z-index: -1;
+        }
+
+        .symbol-img{
+            position: absolute;
+            top: 20%;
+            left: 0;
+            height: 60%;
+            pointer-events: none;
+            z-index: -1;
+        }
+
+    }
+
+
+    /* --------------- about-img style1 --------------- */
+    .tc-about-img-style1{
+        .img{
+            position: relative;
+            .main-img{
+                height: 600px;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .rotate-box{
+            position: absolute;
+            width: 210px;
+            height: 210px;
+            display: block;
+            color: #000;
+            z-index: 20;
+            transform: translate(0% , -50%);
+            // pointer-events: none;
+            right: 11%;
+            top: -25px;
+            .icon{
+               position: absolute;
+               left: 50%;
+               top: 50%;
+               padding: 5px;
+               transform: translate(-50% - 50%);
+            }
+            .rotate-text {
+               animation: rotateText 20s linear infinite;
+               font-weight: bold;
+               text-transform: uppercase;
+               position: absolute;
+               left: calc(50% - 125px);
+                top: 20px;
+                border-radius: 50%;
+                background-color: #fff;
+                border: 1px solid #000;
+            }
+            .rotate-circle svg {
+                width: 210px;
+                height: 210px;
+                fill: #000;
+                transform: scale(1.25);
+            }
+      
+            @keyframes rotateText {
+               0% {
+                  transform: rotate(360deg);
+               }
+               100% {
+                  transform: rotate(0deg);
+               }
+            }
+         }
+    }
+
+
+    /* --------------- tc-about-awards-style1 --------------- */
+    .tc-about-awards-style1 {
+        padding: 100px 0 120px;
+        .table{
+            thead{
+               th{
+                  font-size: 12px;
+                  color: #999;
+                  text-transform: uppercase;
+                  font-weight: 400;
+                  padding: 15px 20px;
+               }
+            }
+            tbody{
+               tr{
+                  font-size: 18px;
+                  transition: all 0.3s ease;
+                  td{
+                     padding: 30px 20px;
+                     border-color: #999;
+                     &:first-of-type{
+                        text-transform: uppercase;
+                     }
+                  }
+               }
+            }
+            a{
+               &:hover{
+                  text-decoration: underline !important;
+               }
+            }
+         }
+    }
+
+
+    /* --------------- tc-about-services-style1 --------------- */
+    .tc-about-services-style1 {
+        padding: 120px 0;
+        background-color: #f3f3f3;
+        
+        .service-card{
+            position: relative;
+            margin-top: 50px;
+            .icon{
+                height: 200px;
+                width: 200px;
+                margin-bottom: 50px;
+            }
+            .info{
+                ul{
+                    a{
+                        font-size: 13px;
+                        color: #666;
+                        text-transform: uppercase;
+                        padding: 3px 0;
+                        &:hover{
+                            color: var(--color-blue1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    /* --------------- tc-about-timeline-style1 --------------- */
+    .tc-about-timeline-style1 {
+        overflow: hidden;
+        padding: 120px 0;
+        position: relative;
+        .info{
+            position: relative;
+            z-index: 10;
+            h2.year{
+                font-size: 200px;
+                color: var(--color-blue1);
+                line-height: 1;
+            }
+            h3{
+                font-size: 50px;
+            }
+        }
+
+        .arrows {
+            margin-top: 150px;
+            position: relative;
+            z-index: 10;
+            a{
+                width: 45px;
+                height: 45px;
+                line-height: 45px;
+                text-align: center;
+                border: 1px solid #9999;
+                border-radius: 50%;
+                margin-inline-end: 10px;
+                &:hover{
+                    background-color: var(--color-blue1);
+                    border-color: var(--color-blue1);
+                    color: #fff;
+                }
+            }
+        }
+
+        .titmeline-slider {
+
+            .swiper-slide{
+                opacity: 0;
+                transition: all 0.3s ease;
+                &.swiper-slide-next,
+                &.swiper-slide-active{
+                    opacity: 1;
+                }
+            }
+            
+            .img-card {
+                position: relative;
+                height: 600px;
+                overflow: hidden;
+                .main-img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+                .award-icon{
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    width: 100px;
+                    height: 100px;
+                    line-height: 100px;
+                    text-align: center;
+                    background-color: #fff;
+                    img{
+                        height: 50%;
+                        object-fit: contain;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+
+    .page-about-style1 {
+
+        .mb-80 {
+            margin-bottom: 50px !important;
+        }
+
+        .tc-about-header-style1 {
+            padding-top: 0;
+            .info {
+                h1 {
+                    font-size: 25px;
+                    margin-bottom: 100px;
+                }
+            }
+        }
+
+        .tc-about-awards-style1 {
+            white-space: nowrap;
+        }
+
+        .tc-about-timeline-style1 {
+            .info {
+                h2.year {
+                    font-size: 80px;
+                }
+                h3{
+                    font-size: 30px;
+                }
+            }
+            .arrows {
+                margin-top: 30px;
+                margin-bottom: 80px;
+            }
+        }
+
+        .tc-about-timeline-style1 {
+            overflow: hidden;
+        }
+
+        .tc-about-img-style1 .rotate-box {
+            width: 150px;
+            height: 150px;
+            .rotate-circle svg {
+                width: 150px;
+                height: 150px;
+            }
+            .icon{
+                transform: translate(-150%);
+            }
+        }
+
+        .tc-about-img-style1 .img .main-img {
+            height: 400px;
+        }
+
+
+    }
+
+}

@@ -1,0 +1,175 @@
+/* ========= [ * page-home_3 ]  =========*/
+
+// side menu
+@import 'side_menu';
+
+// navbar
+@import 'navbar';
+
+// header
+@import 'header';
+
+// about
+@import 'about';
+
+// brands
+@import 'brands';
+
+// services
+@import 'services';
+
+// portfolio
+@import 'portfolio';
+
+// testimonials
+@import 'testimonials';
+
+// process
+@import 'process';
+
+// video
+@import 'video';
+
+// blog
+@import 'blog';
+
+// footer
+@import 'footer';
+
+
+// ------------ home style ------------
+.home-style7 {
+    color: var(--color-darkBlue1);
+
+    .dr_item {
+        display: none;
+    }
+
+    h1,h2,h3,h4,h5,h6,.sub_font{
+        font-family: 'Prata', serif;
+        font-weight: 400;
+    }
+
+    .section-head-style7{
+        position: relative;
+        .float-text{
+            font-size: 160px;
+            line-height: 0.8;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-image: linear-gradient(to top , var(--color-darkBlue1) , var(--color-light1));
+            opacity: 0.2;
+            margin-bottom: -68px;
+            margin-top: -60px;
+            display: block;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 991px) {
+    .home-style7 {
+        br{
+            display: none;
+        }
+        .fsz-50 {
+            font-size: 30px !important;
+        }
+        .fsz-40 {
+            font-size: 25px !important;
+        }
+        .mb-90 {
+            margin-bottom: 40px !important;
+        }
+        .fsz-30 {
+            font-size: 18px !important;
+        }
+        .fsz-60 {
+            font-size: 40px !important;
+        }
+        .section-head-style7 .float-text{
+            font-size: 70px;
+            line-height: 1.4;
+        }
+    }
+}
+
+// --------------- dark theme --------------
+.home-style7.dark-theme {
+    color: #fff;
+    background-color: #222;
+
+    .lt_item {
+        display: none;
+    }
+
+    .dr_item {
+        display: block;
+    } 
+
+    .color-777 {
+        color: #ccc !important;
+    }
+
+    .butn {
+        color: #fff;
+    }
+
+    .tc-brands-style7 .brands-content a,
+    .tc-testimonials-style7 .testi-card .info .logo img {
+        filter: drop-shadow(2px 0px 0px #fff);
+    }
+
+    .tc-services-style7,
+    .tc-testimonials-style7 {
+        background-color: #2e2e31;
+    }
+
+    .tc-services-style7 .service-card,
+    .tc-portfolio-style7 .project-card,
+    .tc-testimonials-style7 .testi-card {
+        background-color: #fff1;
+    }
+
+    .tc-process-style7 .steps .step-card {
+        background-color: #313131;
+    }
+
+    .tc-video-style7 .play-btn,
+    .tc-portfolio-style7 .project-card .img .arrow {
+        background-color: #000;
+    }
+
+    .bg-white {
+        background-color: #000 !important;
+    }
+
+    .tc-blog-style7 .blog-card {
+        border-color: #fff3;
+    }
+
+    .side_menu.style-1 .pages_links {
+        background-color: #222 !important;
+    }
+
+    .bg-white,.side_menu.style-1{
+        background-color: #2e2e31 !important;
+    }
+
+    .side_menu.style-1 .pages_links li a.active {
+        color: #fff !important;
+    }
+
+    .side_menu.style-1 .pages_links li a {
+        color: #ccc!important;
+    }
+
+    .side_menu.style-1 .pages_links li a::after {
+        background-color: #fff;
+    }
+
+    .navbar.style7 .navbar-brand {
+        background-color: #222;
+    }
+
+}

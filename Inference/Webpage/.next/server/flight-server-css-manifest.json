@@ -1,0 +1,21 @@
+{
+  "cssImports": {
+    "/home/based/Desktop/ALL-AI-STUFF/Webpage/src/app/layout.js": [
+      "/home/based/Desktop/ALL-AI-STUFF/Webpage/src/styles/globals.css",
+      "/home/based/Desktop/ALL-AI-STUFF/Webpage/src/styles/modal-video.css",
+      "/home/based/Desktop/ALL-AI-STUFF/Webpage/node_modules/lightgallery/css/lightgallery.css"
+    ]
+  },
+  "cssModules": {
+    "/home/based/Desktop/ALL-AI-STUFF/Webpage/src/app/inner_pages/page_product_single/page": [
+      "/home/based/Desktop/ALL-AI-STUFF/Webpage/src/styles/globals.css",
+      "/home/based/Desktop/ALL-AI-STUFF/Webpage/src/styles/modal-video.css",
+      "/home/based/Desktop/ALL-AI-STUFF/Webpage/node_modules/lightgallery/css/lightgallery.css"
+    ],
+    "/home/based/Desktop/ALL-AI-STUFF/Webpage/src/app/inner_pages/Audio/page": [
+      "/home/based/Desktop/ALL-AI-STUFF/Webpage/src/styles/globals.css",
+      "/home/based/Desktop/ALL-AI-STUFF/Webpage/src/styles/modal-video.css",
+      "/home/based/Desktop/ALL-AI-STUFF/Webpage/node_modules/lightgallery/css/lightgallery.css"
+    ]
+  }
+}

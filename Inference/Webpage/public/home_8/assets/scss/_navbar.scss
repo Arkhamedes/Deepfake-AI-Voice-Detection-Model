@@ -1,0 +1,69 @@
+/* --------------- navbar style8 --------------- */
+.navbar.style8 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 15px;
+    z-index: 99;
+    .navbar-nav{
+        .nav-item{
+            .nav-link{
+                text-transform: uppercase;
+                color: #fff;
+                margin-inline-end: 40px;
+                font-size: 14px;
+                text-transform: uppercase;
+                padding: 0;
+                &:hover,
+                &.active{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    .nav-side{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        .social-links{
+            a{
+                color: #999;
+                margin-inline-end: 20px;
+                &:hover{
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .navbar.style8{
+        position: relative;
+        padding: 15px;
+        background-color: #1d1d1d;
+        overflow: hidden;
+        .w-100 {
+            width: calc(100% + 30px)!important;
+        }
+        .butn{
+            padding: 12px 20px !important;
+            *{
+                font-size: 12px !important;
+            }
+        }
+
+        .navbar-nav {
+            margin-top: 30px;
+            .nav-item .nav-link{
+                margin: 10px 0;
+            }
+        }
+
+        .navbar-brand{
+            width: calc(100% - 60px);
+        }
+    }
+}

@@ -1,0 +1,157 @@
+/* ========= [ * page-home_3 ]  =========*/
+
+// navbar
+@import 'navbar';
+
+// header
+@import 'header';
+
+// about
+@import 'about';
+
+// services
+@import 'services';
+
+// portfolio
+@import 'portfolio';
+
+// awards
+@import 'awards';
+
+// video
+@import 'video';
+
+// contact
+@import 'contact';
+
+// partners
+@import 'partners';
+
+// team
+@import 'team';
+
+// discuss
+@import 'discuss';
+
+// testimonials
+@import 'testimonials';
+
+// blog
+@import 'blog';
+
+// footer
+@import 'footer';
+
+
+// ------------ home style ------------
+.home-style5 {
+    font-family: 'Inter', sans-serif;
+
+    .dr_item {
+        display: none;
+    }
+
+    .sub_font{
+        font-family: 'Playfair Display', serif;
+    }
+
+    .sub_font2,h1,h2,h3,h4,h5,h6{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .home-style5 {
+        br{
+            display: none;
+        }
+        .fsz-50 {
+            font-size: 30px !important;
+        }
+        .fsz-40 {
+            font-size: 25px !important;
+        }
+        .mb-90 {
+            margin-bottom: 40px !important;
+        }
+        .fsz-30 {
+            font-size: 18px !important;
+        }
+        .to_top.show{
+            right: 20px;
+        }
+    }
+}
+
+// --------------- dark theme --------------
+.home-style5.dark-theme {
+    color: #fff;
+    background-color: #222;
+
+    .lt_item {
+        display: none;
+    }
+
+    .dr_item {
+        display: block;
+    }
+
+    .tc-header-style5,
+    .tc-services-style5,
+    .tc-awards-style5,
+    .tc-footer-style5 {
+        background-color: #2e2e31;
+    }
+
+    .tc-header-style5 .pattern,
+    .tc-header-style5 .hero {
+        opacity: 0.1;
+    }
+
+    .tc-navbar-style5 .navbar-nav .nav-item .nav-link,
+    .butn {
+        color: #fff;
+    }
+
+    .tc-contact-style5 .contact-form .form-group .form-control {
+        background-color: transparent;
+    }
+
+    .tc-about-style5,
+    .tc-about-style5 .img::after,
+    .tc-services-style5 .service-card,
+    .tc-portfolio-style5,
+    .tc-portfolio-style5 .img .icon,
+    .tc-contact-style5 .contact-form,
+    .tc-team-style5,
+    .tc-footer-style5 .mail-card .icon {
+        background-color: #222;
+    }
+
+    .color-666 {
+        color: #ccc !important;
+    }
+
+    .border-bottom {
+        border-bottom: 1px solid #fff3 !important;
+    }
+
+    .tc-about-style5 .img .rotate-box .rotate-text {
+        background-color: #000;
+    }
+
+    .tc-about-style5 .img .rotate-box .rotate-circle svg {
+        fill: #fff;
+    }
+
+    .tc-partners-style5 .logo {
+        filter: drop-shadow(2px 4px 0px #fff);
+    }
+
+    .tc-contact-style5 .contact-form {
+        box-shadow: 0px 41px 81px 0px rgba(250, 250, 250, 0.04);
+    }
+
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "icon": "/inner_pages/assets/img/about/serv/ser1.png",
+    "title": "Consulting Strategy and <BR> Creative Design",
+    "list": [
+      "brand consulting",
+      "brand planning & strategy",
+      "UI/UX DEsign"
+    ]
+  },
+  {
+    "id": 2,
+    "icon": "/inner_pages/assets/img/about/serv/ser2.png",
+    "title": "Implement Coding and <BR> Development",
+    "list": [
+      "Website & Mobile App Design",
+      "CRM & System Management",
+      "UX & Product Design",
+      "Product Development"
+    ]
+  },
+  {
+    "id": 3,
+    "icon": "/inner_pages/assets/img/about/serv/ser3.png",
+    "title": "Digital Markerting and <BR> Advertisment",
+    "list": [
+      "Marketing Strategy & Consulting",
+      "Social Media Marketing"
+    ]
+  }
+]

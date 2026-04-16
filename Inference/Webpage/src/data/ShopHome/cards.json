@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "image": "/home_9/assets/img/ft1.png",
+    "title": "Desk Storage",
+    "items": 78
+  },
+  {
+    "id": 2,
+    "image": "/home_9/assets/img/ft2.png",
+    "title": "Kitchen Thing",
+    "items": 50
+  },
+  {
+    "id": 3,
+    "image": "/home_9/assets/img/ft3.png",
+    "title": "Minimal Chair",
+    "items": 32
+  },
+  {
+    "id": 4,
+    "image": "/home_9/assets/img/ft4.png",
+    "title": "Accessories",
+    "items": 42
+  },
+  {
+    "id": 5,
+    "image": "/home_9/assets/img/ft5.png",
+    "title": "Custom Furniture",
+    "items": "+100"
+  }
+]

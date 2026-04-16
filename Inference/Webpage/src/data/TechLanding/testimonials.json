@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "image": "/home_10/assets/img/testi1.jpg",
+    "logo_light": "/home_10/assets/img/clients/okgo.png",
+    "logo_dark": "/home_10/assets/img/clients/012.png",
+    "content": "“Thank you very much for the support of the Swak team, who have been with our business for more than 3 years. A long journey with many exciting experiences and moments. We are so lucky to have yous. Swak will always be our #1 choice!”",
+    "author": "Mason Mount",
+    "position": "Vice President",
+    "at": "Envato"
+  },
+  {
+    "id": 2,
+    "image": "/home_10/assets/img/faq2.jpg",
+    "logo_light": "/home_10/assets/img/clients/noxes.png",
+    "logo_dark": "/home_10/assets/img/clients/012.png",
+    "content": "“Thank you very much for the support of the Swak team, who have been with our business for more than 3 years. A long journey with many exciting experiences and moments. We are so lucky to have yous. Swak will always be our #1 choice!”",
+    "author": "M. mussa",
+    "position": "director",
+    "at": "Swak"
+  }
+]

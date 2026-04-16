@@ -1,0 +1,200 @@
+// ------------ fonts ------------
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../fonts/satoshi/Satoshi-Variable.woff2') format('woff2'),
+         url('../fonts/satoshi/Satoshi-Variable.woff') format('woff'),
+         url('../fonts/satoshi/Satoshi-Variable.ttf') format('truetype');
+         font-weight: 300 900;
+         font-display: swap;
+         font-style: normal;
+}
+@font-face {
+    font-family: 'Satoshi_italic';
+    src: url('../fonts/satoshi/Satoshi-VariableItalic.woff2') format('woff2'),
+         url('../fonts/satoshi/Satoshi-VariableItalic.woff') format('woff'),
+         url('../fonts/satoshi/Satoshi-VariableItalic.ttf') format('truetype');
+         font-weight: 300 900;
+         font-display: swap;
+         font-style: normal;
+}
+
+@font-face {
+    font-family: 'Harabara-Mais';
+    src: url('../fonts/harabara_mais/Harabara-Mais.otf') format('truetype');
+}
+
+/* ========= [ * page-home_3 ]  =========*/
+
+// navbar
+@import 'navbar';
+
+// header
+@import 'header';
+
+// about
+@import 'about';
+
+// services
+@import 'services';
+
+// projects
+@import 'projects';
+
+// partners
+@import 'partners';
+
+// testimonials
+@import 'testimonials';
+
+// pricing
+@import 'pricing';
+
+// faq
+@import 'faq';
+
+// approach
+@import 'approach';
+
+// blog
+@import 'blog';
+
+// contact
+@import 'contact';
+
+// footer
+@import 'footer';
+
+
+// ------------ home style ------------
+.home-style3 {
+    // font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #000;
+    font-weight: 400;
+
+    .dr_item {
+        display: none;
+    }
+    
+    .butn{
+        font-weight: 400;
+    }
+    
+    .container-fluid{
+        padding: 0 5vw;
+    }
+
+    .sub_font{
+        font-family: 'Playfair Display', serif;
+    }
+
+    h1,h2,h3,h4,h5,h6{
+        font-weight: 400;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .home-style3 {
+        br{
+            display: none;
+        }
+        .fsz-50 {
+            font-size: 30px !important;
+        }
+        .fsz-40 {
+            font-size: 25px !important;
+        }
+        .mb-90 {
+            margin-bottom: 40px !important;
+        }
+        .fsz-30 {
+            font-size: 18px !important;
+        }
+    }
+}
+
+
+// --------------- dark theme --------------
+.home-style3.dark-theme {
+    color: #fff;
+    background-color: #222;
+
+    .lt_item {
+        display: none;
+    }
+
+    .dr_item {
+        display: block;
+    }
+
+    .tc-navbar-style3 {
+        border-color: #fff4;
+    }
+
+    .tc-header-style3,
+    .tc-blog-style3,
+    .tc-projects-style3 .project-card .info,
+    .tc-blog-style3 .content .blog-card .info .tags a,
+    .tc-contact-style3 {
+        background-color: #222;
+    }
+
+    .tc-navbar-style3 .navbar-nav .nav-item .nav-link,
+    button {
+        color: #fff;
+    }
+
+    .color-000,
+    .tc-faq-style3 .content .accordion .accordion-item .accordion-button,
+    .tc-approach-style3 .accordion .accordion-item .accordion-button {
+        color: #fff !important;
+    }
+
+    .color-666,
+    .tc-services-style3 .service-card .info ul a {
+        color: #ccc !important;
+    }
+
+    .tc-about-style3 {
+        background-color: #2e2e31;
+    }
+
+    .button_su {
+        .button_text_container {
+            color: #fff;
+        }
+        &:hover {
+            .button_text_container {
+                color: #000;
+            }
+        }
+    }
+
+    .tc-pricing-style3 .pricing-card .card-body .item .icon {
+        background-color: #fff;
+    }
+
+    .tc-faq-style3 .content .accordion .accordion-item,
+    .tc-faq-style3 .content .accordion .accordion-item .accordion-body,
+    .tc-approach-style3 .accordion .accordion-item,
+    .tc-approach-style3 .accordion .accordion-item .accordion-body {
+        background-color: transparent !important;
+    }
+
+    .brd-gray,
+    .tc-about-style3 .why-choose-style3,
+    .tc-services-style3,
+    .tc-partners-style3 .logos .logo,
+    .tc-pricing-style3 .pricing-card,
+    .butn,
+    .tc-faq-style3,
+    .tc-approach-style3 .tabs a::after,
+    .tc-footer-style3 .footer-content .subs-form .form-group {
+        border-color: #fff3 !important;
+    }
+
+    .tc-footer-style3 .footer-content .subs-form .form-group button {
+        color: #fff;
+    }
+
+}

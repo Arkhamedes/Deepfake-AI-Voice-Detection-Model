@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "host": "Awwwards",
+    "award": "SOTY 2023 - 1st Winner",
+    "year": "2023"
+  },
+  {
+    "id": 2,
+    "host": "CSS Awards",
+    "award": "Top 5 Best UI/UX Design 2023",
+    "year": "2023"
+  },
+  {
+    "id": 3,
+    "host": "waf festival us",
+    "award": "Honor Award Winner",
+    "year": "2023"
+  },
+  {
+    "id": 4,
+    "host": "design awards",
+    "award": "Branding 1st Winner",
+    "year": "2023"
+  },
+  {
+    "id": 5,
+    "host": "US Behance 2023",
+    "award": "Top 5 Best Be Portfolio US 2021",
+    "year": "2023"
+  },
+  {
+    "id": 6,
+    "host": "UI/UX global awards",
+    "award": "International UI/UX Design Awards 2020",
+    "year": "2023"
+  }
+]

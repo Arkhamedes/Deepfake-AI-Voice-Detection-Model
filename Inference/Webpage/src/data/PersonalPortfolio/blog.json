@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "image": "/home_8/assets/img/blog/1.jpg",
+    "tag": "business",
+    "date": "24th june 2023",
+    "title": "There are many areas within an marketing such..."
+  },
+  {
+    "id": 2,
+    "image": "/home_8/assets/img/blog/2.jpg",
+    "tag": "work",
+    "date": "24th june 2023",
+    "title": "A business owned and operated by a single individual"
+  },
+  {
+    "id": 3,
+    "image": "/home_8/assets/img/blog/3.jpg",
+    "tag": "consultancy",
+    "date": "24th june 2023",
+    "title": "A business owned and operated by two or more individuals"
+  }
+]

@@ -1,0 +1,365 @@
+/* ========= [ * page-home_3 ]  =========*/
+
+// side_menu
+@import 'side_menu';
+
+// header
+@import 'header';
+
+// services
+@import 'services';
+
+// about
+@import 'about';
+
+// clients
+@import 'clients';
+
+// portfolio
+@import 'portfolio';
+
+// faq
+@import 'faq';
+
+// testimonials
+@import 'testimonials';
+
+// blog
+@import 'blog';
+
+// footer
+@import 'footer';
+
+
+// ------------ home style ------------
+.home-style10 {
+    font-family: 'Space Grotesk', sans-serif;
+    color: #222;
+
+    h1,h2,h3,h4,h5,h6{
+        font-weight: 500;
+    }
+
+    .butn-shadow{
+        padding: 15px 40px;
+        border: 1px solid #000;
+        border-radius: 8px;
+        background-color: #fff;
+        box-shadow: 5px 5px 0 #000;
+        font-weight: bold;
+        transition: all 0.3s ease;
+        &:hover{
+            box-shadow: -5px -5px 0 #000;
+        }
+    }
+
+    .target{
+        .magnetic{
+            transition: all 0.1s linear;
+        }
+    }
+
+    .dr_item {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 991px) {
+    .home-style10 {
+        br{
+            display: none;
+        }
+        .fsz-50 {
+            font-size: 30px !important;
+        }
+        .fsz-40 {
+            font-size: 25px !important;
+        }
+        .fsz-60 {
+            font-size: 40px !important;
+        }
+        .mb-90 {
+            margin-bottom: 40px !important;
+        }
+        .fsz-30 {
+            font-size: 18px !important;
+        }
+
+        .tc-header-style10 {
+
+            .info h1 {
+                font-size: 50px;
+            }
+
+            .butn-shadow {
+                white-space: nowrap;
+            }
+
+            .img{
+                margin-top: 30px;
+                padding: 0;
+            }
+
+        }
+
+        .tc-about-style10 .info .num-title {
+            font-size: 120px;
+            small{
+                display: block;
+                position: relative;
+                left: 0;
+                top: 0;
+                transform: translate(0);
+                margin-top: 20px;
+                text-align: center;
+            }
+        }
+
+        .tc-services-style10 {
+            .service-card {
+                .th-80{
+                    height: 50px !important;
+                    margin-bottom: 20px !important;
+                }
+            }
+            .services-slider-text {
+                a {
+                    font-size: 50px;
+                    padding: 15px 0;
+                }
+                .swiper-slide::after{
+                    font-size: 60px;
+                    top: 15px;
+                }
+            }
+        }
+
+        .tc-clients-style10 .logos {
+            justify-content: center;
+            .logo,
+            .logo-link {
+                width: 150px;
+                height: 150px;
+                padding: 0 30px;
+                line-height: 150px;
+            }
+            .logo-link{
+                line-height: 25px;
+            }
+        }
+
+        .tc-portfolio-style10{
+            .section-head{
+                margin-bottom: 50px !important;
+            }
+            .arrows{
+                margin-bottom: 50px;
+            }
+        }
+
+        .tc-faq-style10 {
+            .vid-side {
+                padding-bottom: 120px;
+                margin-bottom: 30px;
+                .img{
+                    height: 320px;
+                }
+                .img2 {
+                    height: 220px;
+                }
+            }
+        }
+
+        .tc-testimonials-style10 {
+
+            .tc-testimonials-slider10 {
+                padding-bottom: 70px;
+                .arrows {
+                    right: 50%;
+                    bottom: 0;
+                    transform: translateX(50%);
+                    padding: 0;
+                    a{
+                        width: 45px;
+                        height: 45px;
+                        line-height: 45px;
+                    }
+                }
+            }
+
+            .testi-card {
+                .img {
+                    img {
+                        height: 250px;
+                        min-height: 250px;
+                    }
+                }
+                .info {
+                    .logo {
+                        text-align: center;
+                        padding: 30px;
+                    }
+                    .info_card {
+                        padding: 30px;
+                        width: 100%;
+                        margin: 0;
+                        .btm_inf{
+                            display: block;
+                            .stars{
+                                display: inline-block;
+                                margin-top: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        footer {
+            overflow: hidden;
+        }
+        
+        .hover-reveal{
+            display: none !important;
+        }
+
+        .tc-services-style10{
+            overflow: hidden;
+        }
+
+    }
+}
+
+
+// --------------- dark theme --------------
+.home-style10.dark-theme {
+    color: #fff;
+    background-color: #222;
+
+    .lt_item {
+        display: none;
+    }
+
+    .dr_item {
+        display: block;
+    } 
+
+    .tc-header-style10,
+    .tc-about-style10,
+    .tc-about-style10 .info .num-title small,
+    .tc-footer-style10 {
+        background-color: #111;
+    }
+
+    .tc-header-style10::after,
+    .tc-about-style10::after,
+    .tc-portfolio-style10,
+    .tc-portfolio-style10::after,
+    .tc-portfolio-style10 .info,
+    .tc-testimonials-style10,
+    .tc-testimonials-style10 .testi-card .info .info_card .btm_inf .stars{
+        background-color: #2e2e31;
+    }
+
+    .tc-testimonials-style10 .testi-card .info .info_card ,
+    .tc-testimonials-style10 .tc-testimonials-slider10 .arrows a{
+        background-color: #222;
+    }
+
+    .tc-header-style10 .symbol {
+        opacity: 0.1;
+    }
+
+    .tc-header-style10 .top-nav .side-nav-icon {
+        background-color: #000;
+        box-shadow: 2px 2px 0 #fff;
+    }
+
+    .butn-shadow {
+        border: 1px solid transparent;
+        background-color: #000;
+        box-shadow: 5px 5px 0 #fff;
+    }
+
+    .color-000,
+    .tc-portfolio-style10 .portfolio-card .info {
+        color: #fff !important;
+    }
+
+    .tc-about-style10 .info .num-title {
+        -webkit-text-stroke: 2px #fff;
+    }
+
+    .tc-clients-style10 .logos .logo img {
+        filter: drop-shadow(2px 0px 0px #fff);
+        // filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(261deg) brightness(103%) contrast(101%);
+    }
+
+    .tc-clients-style10 .logos .logo,
+    .tc-blog-style10 .blog-content .blog-card,
+    .tc-blog-style10 .blog-content {
+        border-color: #fff3;
+    }
+
+    .tc-clients-style10 .logos .logo-link {
+        background-color: #fff;
+        color: #000;
+    }
+
+    .tc-clients-style10 .logos .logo-link::before {
+        border-color: #fff;
+    }
+
+    .tc-faq-style10 .accordion-side .accordion .accordion-item {
+        background-color: transparent;
+    }
+
+    .tc-faq-style10 .accordion-side .accordion .accordion-item .accordion-button{
+        color: #fff;
+        border-color: #fff3;
+     }
+
+     .tc-faq-style10 .accordion-side .accordion .accordion-item .accordion-body {
+        background-color: #fff1;
+     }
+
+     .color-777 {
+        color: #ccc !important;
+    }
+
+    .tc-faq-style10 .vid-side .play-btn {
+        background-color: #000;
+    }
+
+    .tc-faq-style10 .vid-side .img2 {
+        border-color: #222;
+    }
+
+    .side_menu.style-1 .pages_links {
+        background-color: #222 !important;
+    }
+
+    .bg-white,.side_menu.style-1{
+        background-color: #2e2e31 !important;
+    }
+
+    .side_menu.style-1 .pages_links li a.active {
+        color: #fff !important;
+    }
+
+    .side_menu.style-1 .pages_links li a {
+        color: #ccc!important; 
+    }
+
+    .side_menu.style-1 .pages_links li a::after {
+        background-color: #fff;
+    }
+
+    .tc-clients-style10 .logos .logo:hover {
+        background-color: #000;
+    }
+    
+
+
+}

@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "image": "/inner_pages/assets/img/blog/blog1.jpg",
+    "author": {
+      "name": "Hetmayar",
+      "picture": "/inner_pages/assets/img/team/team1.jpg"
+    },
+    "tag": "Business",
+    "title": "Both the act of teaching knowledge to others &  the act of kind of design thinking.",
+    "details": "Novia's spaciously two bedroom apartments are perfect for families and even business partners. Look out into the Manhattan skyline from the open fully equipped kitchen.",
+    "views": "100",
+    "comments": "30",
+    "date": "24th August 2023"
+  },
+  {
+    "id": 2,
+    "image": "/inner_pages/assets/img/blog/blog2.jpg",
+    "author": {
+      "name": "Hetmayar",
+      "picture": "/inner_pages/assets/img/team/team1.jpg"
+    },
+    "tag": "Services",
+    "title": "The opportunity to work abroad is a popular prospect, one undimmed.",
+    "details": "Novia's spaciously two bedroom apartments are perfect for families and even business partners. Look out into the Manhattan skyline from the open fully equipped kitchen.",
+    "views": "100",
+    "comments": "30",
+    "date": "24th August 2023",
+    "video": "qYgdnM3BC3g"
+  },
+  {
+    "id": 3,
+    "image": "/inner_pages/assets/img/blog/blog3.jpg",
+    "author": {
+      "name": "Hetmayar",
+      "picture": "/inner_pages/assets/img/team/team1.jpg"
+    },
+    "tag": "Design",
+    "title": "By the years of restriction due to the pandemic and made only more accessible.",
+    "details": "Novia's spaciously two bedroom apartments are perfect for families and even business partners. Look out into the Manhattan skyline from the open fully equipped kitchen.",
+    "views": "100",
+    "comments": "30",
+    "date": "24th August 2023"
+  },
+  {
+    "id": 4,
+    "image": "/inner_pages/assets/img/blog/blog6.png",
+    "smallImage": true,
+    "title": "Thanks to hybrid working and the rise of the digital native.",
+    "details": "Novia's spaciously two bedroom apartments are perfect for families and even business partners. Look out into the Manhattan skyline from the open fully equipped kitchen.",
+    "views": "100",
+    "comments": "30",
+    "date": "24th August 2023"
+  },
+  {
+    "id": 5,
+    "title": "However, despite the still-growing desire to work abroad, many people.",
+    "details": "Novia's spaciously two bedroom apartments are perfect for families and even business partners. Look out into the Manhattan skyline from the open fully equipped kitchen.",
+    "views": "100",
+    "comments": "30",
+    "date": "24th August 2023"
+  }
+]

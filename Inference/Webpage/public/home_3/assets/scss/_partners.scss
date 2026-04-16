@@ -1,0 +1,36 @@
+/* --------------- partners style3 --------------- */
+.tc-partners-style3 {
+    position: relative;
+    padding: 70px 0;
+    .logos{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0 -10px;
+        .logo{
+            width: calc(12vw - 10px);
+            height: calc(12vw - 10px);
+            border-radius: 50%;
+            text-align: center;
+            border: 1px solid #d9d9d9;
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img{
+                max-width: 70%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .tc-partners-style3 {
+        .logos {
+            .logo {
+                width: calc(21vw - 10px);
+                height: calc(21vw - 10px);
+            }
+        }
+    }
+}

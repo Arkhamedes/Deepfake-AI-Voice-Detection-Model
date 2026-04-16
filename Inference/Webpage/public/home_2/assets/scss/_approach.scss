@@ -1,0 +1,72 @@
+/* --------------- approach style2 --------------- */
+.tc-approach-style2 {
+    padding: 130px 0;
+
+    .approach-card{
+        position: relative;
+        text-align: center;
+        display: block;
+        padding: 90px 50px;
+        min-height: 100%;
+        &:hover{
+            &::after{
+                border-color: var(--color-lightGreen1);
+            }
+            .num{
+                color: var(--color-lightGreen1);
+            }
+        }
+
+        &::after{
+            position: absolute;
+            content: "";
+            left: -20px;
+            top: 0;
+            width: calc(100% + 40px);
+            height: 100%;
+            border: 1px solid #fff3;
+            border-radius: 200px;
+            pointer-events: none;
+            transition: all 0.3s ease;
+        }
+
+        h5{
+            font-size: 22px;
+            text-transform: uppercase;
+            margin-bottom: 50px;
+        }
+
+        .icon{
+            height: 100px;
+            margin-bottom: 40px;
+        }
+
+        p{
+            font-size: 17px;
+            color: #999;
+            margin-bottom: 50px;
+        }
+
+        .num{
+            font-size: 14px;
+            color: #999;
+            transition: all 0.3s ease;
+        }
+
+    }
+
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-approach-style2 {
+        .approach-card {
+            &::after {
+                left: 0;
+                top: -20px;
+                width: 100%;
+                height: calc(100% + 40px);
+            }
+        }
+    }
+}

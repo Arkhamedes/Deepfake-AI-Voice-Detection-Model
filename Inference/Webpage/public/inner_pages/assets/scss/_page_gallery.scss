@@ -1,0 +1,37 @@
+/* --------------- page-soon-style1 --------------- */
+.page-gallery-style1 {
+
+    .header-gallery {
+        .img {
+            display: block;
+            height: 450px;
+            min-height: calc(100vh - 235px);
+            overflow: hidden;
+            img{
+                transform: scale(1.6);
+                transition: all 1s ease;
+            }
+        }
+        .swiper-slide-active {
+            .img {
+                img{
+                    transform: scale(1);
+                    transition: all 1s ease;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .page-gallery-style1 {
+        .tc-inner-header-style1 {
+            padding-top: 0 !important;
+            height: 100vh;
+            .header-gallery .img {
+                min-height: 350px;
+            }
+        }
+    }
+}

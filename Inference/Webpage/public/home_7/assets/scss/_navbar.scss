@@ -1,0 +1,87 @@
+/* --------------- header style7 --------------- */
+.navbar.style7 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 0;
+
+    .navbar-brand{
+        background-color: #fff;
+        padding: 30px;
+        border-bottom-left-radius: 20px;
+        margin: 0;
+    }
+
+    .top-nav{
+        background-color: var(--color-orange2);
+        color: #fff;
+        padding: 5px 40px;
+    }
+
+    .navbar-collapse{
+        border: 1px solid #fff2;
+        border-bottom-right-radius: 20px;
+
+        .navbar-nav{
+            .nav-item{
+                .nav-link{
+                    text-transform: uppercase;
+                    color: #fff;
+                    margin-inline-start: 40px;
+                    padding: 18px 0;
+                    &:hover,
+                    &.active{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+
+        .social-side{
+            display: flex;
+            align-items: center;
+            .links{
+                a{
+                    color: #fff;
+                    font-size: 14px;
+                    margin-inline-end: 15px;
+                }
+            }
+            .menu-btn{
+                padding: 15px;
+                color: var(--color-orange2);
+                border-inline-start: 1px solid #9992;
+                font-size: 15px;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .navbar.style7 {
+        position: relative;
+        background-color: var(--color-darkBlue1);
+        border-bottom: 1px solid #fff1;
+        .container{
+            padding: 0;
+            .navbar-toggler{
+                margin-inline-end: 15px;
+            }
+            .navbar-brand{
+                border-radius: 0;
+            }
+            .top-nav{
+                display: none;
+            }
+            .navbar-collapse{
+                padding: 20px;
+                .navbar-nav .nav-item .nav-link {
+                    margin: 0;
+                }
+            }
+        }
+        
+    }
+}

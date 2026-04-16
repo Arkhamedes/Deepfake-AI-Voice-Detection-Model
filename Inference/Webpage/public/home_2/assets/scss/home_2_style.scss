@@ -1,0 +1,147 @@
+/* ========= [ * page-home_2 ]  =========*/
+
+// navbar
+@import 'navbar';
+
+// header
+@import 'header';
+
+// services
+@import 'services';
+
+// featured
+@import 'featured';
+
+// testimonials
+@import 'testimonials';
+
+// about
+@import 'about';
+
+// approach
+@import 'approach';
+
+// blog
+@import 'blog';
+
+// footer
+@import 'footer';
+
+
+// ------------ home style ------------
+.home-style2 {
+    // font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #1b1b1e;
+    color: #fff;
+
+    h1,h2,h3,h4,h5,h6{
+        font-family: 'Playfair Display', serif;
+    }
+
+    main{
+        position: relative;
+        background-color: #303034;
+        border-radius: 50px;
+    }
+
+    .lt_item {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 991px) {
+    .home-style2 {
+        br{
+            display: none;
+        }
+        .fsz-50 {
+            font-size: 30px !important;
+        }
+        .fsz-40 {
+            font-size: 25px !important;
+        }
+        .mb-90 {
+            margin-bottom: 40px !important;
+        }
+        .fsz-60 {
+            font-size: 40px !important;
+        }
+        .fsz-30 {
+            font-size: 18px !important;
+        }
+        .fsz-22 {
+            font-size: 15px !important;
+        }
+        .fsz-18 {
+            font-size: 13px !important;
+        }
+        .mt-90 {
+            margin-top: 30px !important;
+        }
+        .mt-150 {
+            margin-top: 70px !important;
+        }
+    }
+}
+
+
+// --------------- light theme --------------
+
+.home-style2.light-theme {
+    background-color: #fff;
+    color: #1b1b1e;
+
+    main {
+        background-color: #f5f5f5;
+    }
+
+    .lt_item {
+        display: block;
+    }
+
+    .dr_item {
+        display: none;
+    }
+
+    .tc-header-style2 {
+        background-color: #fff;
+    }
+
+    .tc-navbar-style2 .navbar-nav .nav-item .nav-link {
+        color: #1b1b1e;
+    }
+
+    .text-white {
+        color: #000!important;
+    }
+
+    .button_su:hover .text-white {
+        color: #fff!important;
+    }
+
+    .tc-services-style2 .text-sliders .services-text-slider a {
+        color: #ccc;
+        &:hover {
+            color: var(--color-lightGreen1);
+        }
+    }
+
+    .tc-featured-style2 .content .feature-item,
+    .tc-approach-style2 .approach-card::after,
+    .tc-blog-style2 .content .blog-card,
+    .tc-footer-style2 .social-icons a,
+    .tc-footer-style2 .foot,
+    .tc-services-style2 .content::before,
+    .tc-services-style2 .content::after {
+        border-color: #9999;
+    }
+
+    .tc-blog-style2 .content .blog-card .button_su {
+        .button_text_container {
+            color: #fff !important;
+        }
+    }
+
+}
+

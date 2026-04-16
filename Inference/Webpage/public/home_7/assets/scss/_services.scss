@@ -1,0 +1,67 @@
+/* --------------- services style7 --------------- */
+.tc-services-style7 {
+    padding: 120px 0;
+    background-color: var(--color-light1);
+
+    .service-card{
+        padding: 50px;
+        background-color: #fff;
+        border-radius: 5px;
+        position: relative;
+        margin-top: 40px;
+
+        .link{
+            position: relative;
+            border: 1px solid #9993;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            overflow: hidden;
+            text-transform: uppercase;
+
+            &::after{
+                position: absolute;
+                content: "";
+                right: 0;
+                top: 0;
+                width: 0;
+                height: 100%;
+                background-color: var(--color-darkBlue1);
+                transition: all 0.4s ease;
+            }
+
+            span{
+                padding: 10px 30px;
+                position: relative;
+                z-index: 10;
+            }
+
+            .icon{
+                width: 50px;
+                height: 50px;
+                line-height: 50px;
+                text-align: center;
+                background-color: var(--color-darkBlue1);
+                color: #fff;
+                position: relative;
+                z-index: 10;
+                border-inline-start: 1px solid #fff2;
+            }
+
+            &:hover{
+                color: #fff;
+                &::after{
+                    width: 100%;
+                }
+            }
+            
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .tc-services-style7 {
+
+    }
+}

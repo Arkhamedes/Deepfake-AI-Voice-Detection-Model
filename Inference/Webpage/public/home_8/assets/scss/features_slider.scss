@@ -1,0 +1,31 @@
+/* --------------- features-slider style8 --------------- */
+.tc-features-slider-style8 {
+    padding: 50px 0;
+
+    .slide-link{
+        font-size: 100px;
+        color: #999;
+        &:hover{
+            color: var(--color-green1) !important;
+        }
+    }
+
+    .tc-features-slider8{
+        .swiper-wrapper {
+           -webkit-transition-timing-function: linear !important;
+           transition-timing-function: linear !important;
+           position: relative;
+       }
+        .swiper-slide{
+           width: max-content !important;
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .tc-features-slider-style8 {
+        .slide-link{
+            font-size: 50px;
+        }
+    }
+}

@@ -1,0 +1,51 @@
+/* --------------- blog style3 --------------- */
+.tc-blog-style3 {
+    background-color: #e9e8ee;
+
+    .content{
+        padding: 70px 0;
+        border-bottom: 1px solid #ccc;
+
+        .blog-card{
+            overflow: hidden;
+            position: relative;
+            border-radius: 30px;
+            margin-top: 50px;
+            .img{
+                height: 330px;
+                overflow: hidden;
+                border-radius: 30px;
+            }
+            .info{
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                padding: 30px;
+                z-index: 5;
+                background-image: linear-gradient(to top , #000000af , transparent);
+                .tags{
+                    margin-bottom: 15px;
+                    a{
+                        font-size: 12px;
+                        text-transform: uppercase;
+                        padding: 5px 15px;
+                        border-radius: 30px;
+                        background-color: #fff;
+                        margin-inline-end: 10px;
+                    }
+                }
+                p{
+                    font-size: 13px;
+                    color: #ccc;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .tc-blog-style3 {
+
+    }
+}

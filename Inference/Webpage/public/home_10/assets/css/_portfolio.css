@@ -1,0 +1,80 @@
+/* --------------- portfolio style10 --------------- */
+.tc-portfolio-style10 {
+  position: relative;
+  padding: 120px 0;
+  background-color: #222;
+  color: #fff;
+}
+.tc-portfolio-style10 .info {
+  position: relative;
+  z-index: 20;
+  background-color: #222;
+  height: 100%;
+}
+.tc-portfolio-style10 .info .arrows a {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  line-height: 60px;
+  text-align: center;
+  background-color: #343434;
+  color: #fff;
+  -webkit-margin-end: 10px;
+          margin-inline-end: 10px;
+  border: 2px solid #343434;
+}
+.tc-portfolio-style10 .info .arrows a:hover {
+  border: 2px solid #fff;
+  -webkit-box-shadow: 5px 5px 0 #fff;
+          box-shadow: 5px 5px 0 #fff;
+}
+.tc-portfolio-style10 .info .arrows a.button-prev:hover {
+  -webkit-box-shadow: -5px -5px 0 #fff;
+          box-shadow: -5px -5px 0 #fff;
+}
+.tc-portfolio-style10 .portfolio-card {
+  position: relative;
+  overflow: hidden;
+}
+.tc-portfolio-style10 .portfolio-card .img img {
+  width: 100%;
+  height: 450px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.tc-portfolio-style10 .portfolio-card .info {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  background-color: #fff;
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  z-index: 10;
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #222;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.tc-portfolio-style10 .portfolio-card .info .inf {
+  width: 100%;
+}
+.tc-portfolio-style10 .portfolio-card .info .logo img {
+  height: 40px;
+}
+.tc-portfolio-style10 .portfolio-card:hover .info {
+  top: 10px;
+  opacity: 1;
+}

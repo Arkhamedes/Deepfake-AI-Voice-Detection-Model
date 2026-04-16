@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "image": "/home_2/assets/img/projects/1.png",
+    "title": "NEwz - emagazine",
+    "tags": "branding, website",
+    "year": 2023
+  },
+  {
+    "id": 2,
+    "image": "/home_2/assets/img/projects/2.png",
+    "title": "mails manage",
+    "tags": "mobile design",
+    "year": 2023
+  },
+  {
+    "id": 3,
+    "image": "/home_2/assets/img/projects/3.png",
+    "title": "The matter",
+    "tags": "website, illustration",
+    "year": 2023
+  },
+  {
+    "id": 4,
+    "image": "/home_2/assets/img/projects/4.png",
+    "title": "unimo",
+    "tags": "branding",
+    "year": 2023
+  },
+  {
+    "id": 5,
+    "image": "/home_2/assets/img/projects/5.png",
+    "title": "zuma",
+    "tags": "branding",
+    "year": 2023
+  },
+  {
+    "id": 6,
+    "image": "/home_2/assets/img/projects/6.png",
+    "title": "jamx",
+    "tags": "website, animation",
+    "year": 2023
+  },
+  {
+    "id": 7,
+    "image": "/home_2/assets/img/projects/7.png",
+    "title": "bunero",
+    "tags": "branding",
+    "year": 2023
+  },
+  {
+    "id": 8,
+    "image": "/home_2/assets/img/projects/8.png",
+    "title": "brian & nick arc",
+    "tags": "website, seo",
+    "year": 2023
+  }
+]

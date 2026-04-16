@@ -1,0 +1,22 @@
+[
+  {
+    "dark": "/home_9/assets/img/logos/01.png",
+    "light": "/home_9/assets/img/logos/okgo.png"
+  },
+  {
+    "dark": "/home_9/assets/img/logos/02.png",
+    "light": "/home_9/assets/img/logos/noxes.png"
+  },
+  {
+    "dark": "/home_9/assets/img/logos/03.png",
+    "light": "/home_9/assets/img/logos/tek.png"
+  },
+  {
+    "dark": "/home_9/assets/img/logos/04.png",
+    "light": "/home_9/assets/img/logos/stripe.png"
+  },
+  {
+    "dark": "/home_9/assets/img/logos/05.png",
+    "light": "/home_9/assets/img/logos/snyk.png"
+  }
+]

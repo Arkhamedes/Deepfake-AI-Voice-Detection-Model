@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "imageLight": "/home_1/assets/img/patrners/1.png",
+    "imageDark": "/home_1/assets/img/patrners/1_lt.png",
+    "title": "Okgo",
+    "details": "Noxes is Norways largest financial services group. We help developed numerous digital product and promote websites for the company"
+  },
+  {
+    "id": 2,
+    "imageLight": "/home_1/assets/img/patrners/2.png",
+    "imageDark": "/home_1/assets/img/patrners/2_lt.png",
+    "title": "noxes",
+    "details": "Noxes is Norways largest financial services group. We help developed numerous digital product and promote websites for the company"
+  },
+  {
+    "id": 3,
+    "imageLight": "/home_1/assets/img/patrners/3.png",
+    "imageDark": "/home_1/assets/img/patrners/3_lt.png",
+    "title": "Jamx",
+    "details": "Noxes is Norways largest financial services group. We help developed numerous digital product and promote websites for the company"
+  },
+  {
+    "id": 4,
+    "imageLight": "/home_1/assets/img/patrners/4.png",
+    "imageDark": "/home_1/assets/img/patrners/4_lt.png",
+    "title": "Stripe",
+    "details": "Noxes is Norways largest financial services group. We help developed numerous digital product and promote websites for the company"
+  },
+  {
+    "id": 5,
+    "imageLight": "/home_1/assets/img/patrners/5.png",
+    "imageDark": "/home_1/assets/img/patrners/5_lt.png",
+    "title": "OAK",
+    "details": "Noxes is Norways largest financial services group. We help developed numerous digital product and promote websites for the company"
+  },
+  {
+    "id": 6,
+    "imageLight": "/home_1/assets/img/patrners/6.png",
+    "imageDark": "/home_1/assets/img/patrners/6_lt.png",
+    "title": "Tek React JS",
+    "details": "Noxes is Norways largest financial services group. We help developed numerous digital product and promote websites for the company"
+  },
+  {
+    "id": 7,
+    "imageLight": "/home_1/assets/img/patrners/7.png",
+    "imageDark": "/home_1/assets/img/patrners/7_lt.png",
+    "title": "Javast",
+    "details": "Noxes is Norways largest financial services group. We help developed numerous digital product and promote websites for the company"
+  },
+  {
+    "id": 8,
+    "imageLight": "/home_1/assets/img/patrners/8.png",
+    "imageDark": "/home_1/assets/img/patrners/8_lt.png",
+    "title": "Snyk",
+    "details": "Noxes is Norways largest financial services group. We help developed numerous digital product and promote websites for the company"
+  }
+]

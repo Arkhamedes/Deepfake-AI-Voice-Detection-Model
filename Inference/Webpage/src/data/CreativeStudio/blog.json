@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "image": "/home_2/assets/img/blog/1.png",
+    "category": "news",
+    "author": "bill kenney",
+    "title": "NEwz earns site of the month in css award Jul, 2023",
+    "details": "Digital marketplaces can be safely called the future of retail.",
+    "date": "30 Minutes ago"
+  },
+  {
+    "id": 2,
+    "image": "/home_2/assets/img/blog/3.png",
+    "category": "experience",
+    "author": "admin",
+    "title": "Castro nominated for the Branding of the Year 2017 by CSSDA",
+    "details": "Digital marketplaces can be safely called the future of retail.",
+    "date": "15 hours ago"
+  },
+  {
+    "id": 3,
+    "image": "/home_2/assets/img/blog/2.png",
+    "category": "review",
+    "author": "bill kenney",
+    "title": "become a freelancer, why not?",
+    "details": "Digital marketplaces can be safely called the future of retail.",
+    "date": "2 days ago"
+  },
+  {
+    "id": 4,
+    "image": "/home_2/assets/img/blog/4.png",
+    "category": "inspiration",
+    "author": "Logan Cee",
+    "title": "Swak are champion of Best branding at awards 2023 with zuma",
+    "details": "Digital marketplaces can be safely called the future of retail.",
+    "date": "15 hours ago"
+  }
+]

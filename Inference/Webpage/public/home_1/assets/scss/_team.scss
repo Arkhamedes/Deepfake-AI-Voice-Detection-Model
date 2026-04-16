@@ -1,0 +1,110 @@
+/* --------------- team style1 --------------- */
+.tc-team-style1 {
+  text-align: center;
+  padding: 130px 0;
+
+  .team-text-card {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #46464b;
+    margin-top: 30px;
+    color: #fff;
+  }
+
+  .team-img-card {
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 30px;
+
+    img{
+      transition: all 0.4s ease;
+    }
+
+    &.lg-card {
+      width: 430px;
+      height: 430px;
+      .info{
+        h6{
+          font-size: 30px;
+        }
+      }
+    }
+
+    &:hover{
+      img{
+        transform: scale(0.85);
+      }
+      .info{
+        opacity: 1;
+        top: 0;
+      }
+    }
+
+    .info{
+      position: absolute;
+      left: 0;
+      top: 20px;
+      width: 100%;
+      height: 100%;
+      background-color: #46464b;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 10;
+      opacity: 0;
+      transition: all 0.4s ease;
+      h6{
+        font-size: 16px;
+        font-weight: bold;
+        color: #fff;
+      }
+    }
+  }
+
+  .button_su {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 0;
+    text-align: start;
+    line-height: 2.5;
+    margin-top: 30px;
+
+    .button_su_inner {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .tc-team-style1 {
+    padding: 50px 0;
+
+    .team-text-card,
+    .team-img-card {
+      width: 250px !important;
+      height: 250px !important;
+      margin: 15px auto;
+    }
+
+    .ord-last {
+      order: 5;
+    }
+  }
+}

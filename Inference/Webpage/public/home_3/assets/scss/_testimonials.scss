@@ -1,0 +1,112 @@
+/* --------------- testimonials style3 --------------- */
+.tc-testimonials-style3 {
+    padding: 80px 0;
+    color: #fff;
+    background-color: #252b37;
+    position: relative;
+    overflow: hidden;
+
+    .float-imgs{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        opacity: 0.2;
+        transition: all 0.2s linear;
+        img{
+            transition: all 0.2s linear;
+            &:nth-of-type(1){
+                position: absolute;
+                top: 0;
+                right: 7%;
+                max-width: 25%;
+                border-radius: 0 0 30px 30px;
+            }
+            &:nth-of-type(2){
+                position: absolute;
+                bottom: 0;
+                left: 20%;
+                max-height: 30%;
+                border-radius: 30px 30px 0 0;
+            }
+            &:nth-of-type(3){
+                position: absolute;
+                top: 20%;
+                left: 0;
+                max-width: 15%;
+                border-radius: 0 30px 30px 0;
+            }
+        }
+    }
+
+    .tc-testimonials-slider3{
+        position: relative;
+        overflow: hidden;
+
+        .slider-controls{
+            position: relative;
+            background-color: transparent;
+            padding: 5px 50px;
+            border-radius: 20px;
+            display: inline-flex;
+            align-items: center;
+            width: 300px;
+            height: 50px;
+            .swiper-pagination{
+               position: relative;
+               bottom: 0;
+               .swiper-pagination-bullet{
+                  width: 7px;
+                  height: 7px;
+                  &.swiper-pagination-bullet-active{
+                     background-color: var(--color-blue1);
+                  }
+               }
+            }
+            .swiper-button-next,
+            .swiper-button-prev{
+               // position: relative;
+               width: 50px;
+               height: 50px;
+               border-radius: 50%;
+               border: 1px solid #fff;
+               text-align: center;
+               line-height: 50px;
+               margin: 0 30px;
+               top: 0;
+               z-index: 20;
+               transition: all 0.3s ease;
+               &:hover{
+                border-color: var(--color-blue1);
+                background-color: var(--color-blue1);
+               }
+               &::after{
+                  font-size: 14px;
+                  color: #fff;
+               }
+            }
+         }
+
+        .testi-card{
+            margin: 100px 0;
+            .logo{
+                img{
+                    max-width: 100px;
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .tc-testimonials-style3 {
+        .tc-testimonials-slider3 {
+            .testi-card {
+                margin: 50px 0;
+            }
+        }
+    }
+}

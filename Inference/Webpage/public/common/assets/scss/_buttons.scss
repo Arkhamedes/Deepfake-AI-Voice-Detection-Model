@@ -1,0 +1,101 @@
+/* --------------- buttons style --------------- */
+.butn{
+   padding: 18px 40px;
+   font-size: 18px;
+   border: 1px solid #999;
+   border-radius: 50px;
+   line-height: 1;
+   color: #29292b;
+   font-weight: 500;
+}
+
+.butn_arrow_circle{
+    padding: 10px 10px 10px 30px;
+    font-size: 14px;
+    border: 1px solid #000;
+    border-radius: 50px;
+    color: #000;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    background-color: #fff;
+    &:hover{
+        border-color: transparent;
+    }
+    .arrow{
+        flex-shrink: 0;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 40px;
+        background-color: var(--color-red1);
+        color: #fff;
+        border: 1px solid #fff;
+        margin-inline-start: 30px;
+    }
+    
+}
+
+/* Main button */
+.button_su{
+   overflow: hidden;
+   position: relative;
+   display: inline-block;
+   border-radius: 50px;
+   cursor: pointer;
+   .su_button_circle{
+       background-color: #000;
+       border-radius: 100px;
+       position: absolute;
+       left:0;
+       top:0;
+       width: 0px;
+       height: 0px;
+       margin-left: 0px;
+       margin-top: 0px;
+       pointer-events: none;
+       /*animation-timing-function: ease-in-out; */
+   }
+   .button_text_container{
+       position:relative;
+       z-index: 2;
+   }
+   .explode-circle {
+       animation: explode 1s forwards;
+   }
+    
+    .desplode-circle{
+       animation: desplode 0.5s forwards;
+   }
+}
+
+
+@keyframes explode {
+   0% {
+       width: 0px;
+       height: 0px;
+       margin-left: 0px;
+       margin-top: 0px;
+   }
+   100% {
+       width: 1000px;
+       height: 1000px;
+       margin-left: -500px;
+       margin-top: -500px;
+   }
+}
+@keyframes desplode {
+   0% {
+       width: 1000px;
+       height: 1000px;
+       margin-left: -500px;
+       margin-top: -500px;
+   }
+   100% {
+       width: 0px;
+       height: 0px;
+       margin-left: 0px;
+       margin-top: 0px;
+   }
+}

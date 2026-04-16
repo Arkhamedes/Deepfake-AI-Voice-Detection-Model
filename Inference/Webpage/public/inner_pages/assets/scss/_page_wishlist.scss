@@ -1,0 +1,139 @@
+/* --------------- wishlist-style1 --------------- */
+.page-wishlist-style1 {
+
+    .tc-wishlist-style1 {
+        padding: 120px 0;
+
+        .wishlist-table {
+            .table-head {
+                padding: 20px 0 20px 70px;
+                border-bottom: 1px solid #000;
+                font-size: 18px;
+                font-weight: bold;
+            }
+            .table-row {
+                font-size: 16px;
+                color: #666;
+                padding: 30px 0;
+                border-bottom: 1px solid #9993;
+                position: relative;
+                padding-inline-start: 70px;
+                .cls {
+                    position: absolute;
+                    left: 0;
+                    top: 50px;
+                    color: #999;
+                    cursor: pointer;
+                    &:hover{
+                        color: var(--color-blue1);
+                    }
+                }
+                .prod {
+                    display: flex;
+                    align-items: center;
+                    img{
+                        width: 70px;
+                        height: 70px;
+                        object-fit: cover;
+                        margin-inline-end: 20px;
+                        flex-shrink: 0;
+                    }
+                }
+            }
+            .add-more {
+                padding: 15px 20px;
+                border: 1px solid #9993;
+                color: #999;
+                display: inline-block;
+                .qt{
+                    min-width: 40px;
+                    text-align: center;
+                    color: #000;
+                    font-weight: bold;
+                }
+            }
+            .table-foot {
+                margin-top: 60px;
+                .copon {
+                    padding: 10px 20px;
+                    border: 1px solid #9993;
+                    border-radius: 30px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    input,
+                    button {
+                        border: 0;
+                        background: transparent;
+                        text-transform: uppercase;
+                        padding: 0;
+                        margin: 0;
+                    }
+                }
+                .total-card {
+                    padding: 40px;
+                    border: 1px solid #9993;
+                    li {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        padding: 15px 0;
+                        border-bottom: 1px solid #9993;
+                        &:last-of-type {
+                            border: 0;
+                        }
+                        span {
+                            color: var(--color-blue1);
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+
+}
+
+@media screen and (max-width: 991px) {
+    .page-wishlist-style1 {
+        .tc-wishlist-style1 {
+            .wishlist-table {
+                .table-head {
+                    display: none;
+                    
+                }
+                .table-row {
+                    padding: 20px;
+                    border: 0;
+                    background-color: #f9f9f9;
+                    margin-bottom: 10px;
+                    .cls {
+                        left: auto;
+                        right: 20px;
+                        top: 20px;
+                    }
+                    .prod {
+                        margin-bottom: 15px;
+                    }
+                    .add-more {
+                        padding: 5px;
+                        font-size: 12px;
+                    }
+                }
+                .table-foot  {
+                    .copon {
+                        padding: 10px 15px;
+                        font-size: 13px;
+                    }
+                    .total-card {
+                        padding: 20px;
+                        .button_su .button_text_container {
+                            font-size: 13px !important; 
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

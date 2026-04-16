@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "numb": "1",
+    "title": "research",
+    "image": "/home_2/assets/img/icons/research.svg",
+    "details": "Clarifying and translating insights into foundation and creative approach"
+  },
+  {
+    "id": 2,
+    "numb": "2",
+    "title": "concept",
+    "image": "/home_2/assets/img/icons/concept.svg",
+    "details": "Consult strategy and build wireframe with much options"
+  },
+  {
+    "id": 3,
+    "numb": "3",
+    "title": "implement",
+    "image": "/home_2/assets/img/icons/implement.svg",
+    "details": "Once concept get the approval. It’ll implement by our top experts"
+  },
+  {
+    "id": 4,
+    "numb": "4",
+    "title": "handover",
+    "image": "/home_2/assets/img/icons/handover.svg",
+    "details": "Handover final product with best quality for client and support in 1 years"
+  }
+]

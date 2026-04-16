@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "image": "/home_3/assets/img/blog/1.png",
+    "tags": [
+      "news"
+    ],
+    "date": "2 days ago",
+    "title": "Castro nominated for the Branding of the Year 2017 by CSSDA",
+    "details": "Our work has won many of the best digital-native design awards."
+  },
+  {
+    "id": 2,
+    "image": "/home_3/assets/img/blog/2.png",
+    "tags": [
+      "news",
+      "experience"
+    ],
+    "date": "2 days ago",
+    "title": "Newz earns SOTM in CSS Award in Jul, 2023",
+    "details": "Our work has won many of the best digital-native design awards."
+  },
+  {
+    "id": 3,
+    "image": "/home_3/assets/img/blog/3.png",
+    "tags": [
+      "videos"
+    ],
+    "date": "2 days ago",
+    "title": "Typography in Digital Prrint",
+    "details": "Our work has won many of the best digital-native design awards."
+  }
+]

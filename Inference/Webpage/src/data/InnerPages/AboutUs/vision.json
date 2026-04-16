@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "Our Mission",
+    "details": "To provide design & development services for startups, small & middle businesses."
+  },
+  {
+    "id": 2,
+    "title": "Our Vision",
+    "details": "Fortune 500 companies are eager to work with us. The product created with us are used by millions of people all over the world."
+  },
+  {
+    "id": 3,
+    "title": "Our Values",
+    "details": "Fortune 500 companies are eager to work with us. The product created with us are used by millions of people all over the world."
+  },
+  {
+    "id": 4,
+    "title": "Our Goal",
+    "details": "For over five years, our team helped startups, small and middle companies to launch, raise & get market acceptance."
+  }
+]

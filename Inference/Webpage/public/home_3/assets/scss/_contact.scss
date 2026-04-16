@@ -1,0 +1,55 @@
+/* --------------- contact style3 --------------- */
+.tc-contact-style3 {
+    padding: 70px 0;
+    background-color: #e9e8ee;
+
+    .form{
+        .form-group{
+            margin-bottom: 30px;
+            .form-control{
+                border: 0;
+                border-bottom: 2px solid #999;
+                border-radius: 0;
+                background-color: transparent;
+                padding: 10px 0;
+                &:focus{
+                    border-color: #000;
+                }
+                &::placeholder{
+                    color: #999;
+                }
+            }
+        }
+
+        .upload-content{
+            position: relative;
+            display: block;
+            width: max-content;
+            margin: auto;
+            margin-top: 15px;
+            .file{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                left: 0;
+                top: 0;
+                z-index: 5;
+                opacity: 0;
+                cursor: pointer;
+            }
+        }
+
+        .form-check{
+            width: max-content;
+            display: block;
+            margin: 30px auto;
+        }
+
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .tc-contact-style3 {
+
+    }
+}

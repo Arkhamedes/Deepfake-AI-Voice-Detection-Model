@@ -1,0 +1,18 @@
+/* ========= [ * page-home_3 ]  =========*/ /* --------------- footer style2 --------------- */
+@media screen and (max-width: 991px) {
+  .home-style3 br {
+    display: none;
+  }
+  .home-style3 .fsz-50 {
+    font-size: 30px !important;
+  }
+  .home-style3 .fsz-40 {
+    font-size: 25px !important;
+  }
+  .home-style3 .mb-90 {
+    margin-bottom: 40px !important;
+  }
+  .home-style3 .fsz-30 {
+    font-size: 18px !important;
+  }
+}

@@ -1,0 +1,70 @@
+/* --------------- page-blog-masonry-style1 --------------- */
+.page-blog-masonry-style1 {
+
+    .tc-blog-masonry-style1 {
+        padding: 120px 0 120px;
+        .blog-card {
+            margin-bottom: 70px;
+            .img{
+                // height: 260px;
+            }
+            .info {
+                padding-top: 40px;
+                .top-inf {
+                    text-transform: uppercase;
+                    .tag {
+                        position: relative;
+                        color: var(--color-blue1);
+                        padding-inline-start: 75px;
+                        &::after {
+                            position: absolute;
+                            content: "";
+                            left: 0;
+                            top: 50%;
+                            width: 50px;
+                            height: 1px;
+                            background-color: var(--color-blue1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .pagination {
+        justify-content: center;
+        width: 100%;
+        .page-link {
+            width: 50px;
+            height: 50px;
+            border: 1px solid #9992;
+            margin: 0 5px;
+            padding: 0;
+            line-height: 50px;
+            text-align: center;
+            font-size: 16px;
+            font-weight: bold;
+            color: #666;
+            &:hover,&.active{
+                border-color: var(--color-blue1);
+                background-color: var(--color-blue1);
+                color: #fff;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .page-blog-masonry-style1 {
+        
+        .tc-blog-masonry-style1 {
+            .blog-card {
+                .img{
+                    height: 260px;
+                }
+            }
+        }
+
+    }
+}

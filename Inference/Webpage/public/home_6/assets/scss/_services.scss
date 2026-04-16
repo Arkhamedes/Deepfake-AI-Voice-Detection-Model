@@ -1,0 +1,60 @@
+/* --------------- about style6 --------------- */
+.tc-services-style6 {
+    padding: 120px 0;
+    background-color: #f4f4f4;
+
+    .service-card{
+        display: block;
+        background-color: #fff;
+        padding: 50px 50px 250px;
+        margin-top: 30px;
+        position: relative;
+        &:hover{
+            .float-icon{
+                opacity: 1;
+            }
+            .info{
+                h5{
+                    padding-bottom: 10px;
+                }
+            }
+        }
+        .float-icon{
+            position: absolute;
+            top: 25px;
+            right: 25px;
+            color: #000;
+            opacity: 0.3;
+            font-size: 25px;
+        }
+        .icon{
+            height: 100px;
+        }
+        .info{
+            position: absolute;
+            left: 50px;
+            bottom: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #d0d0d0;
+            width: calc(100% - 100px);
+            transition: all 0.3s ease;
+            h5{
+                transition: all 0.3s ease;
+            }
+            .text{
+                display: none;
+                font-size: 16px;
+                color: #777;
+                line-height: 1.7;
+            }
+        }
+    }
+
+    
+}
+
+@media screen and (max-width: 991px) {
+    .tc-services-style6 {
+
+    }
+}

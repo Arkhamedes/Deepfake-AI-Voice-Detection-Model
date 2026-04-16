@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "title": "thingking and <BR> design",
+    "icon": "bezier-curve",
+    "image": "/home_2/assets/img/services/1.png",
+    "tags": [
+      "Brand Consulting,",
+      "UI/UX,",
+      "Art Direction,",
+      "Illustration,",
+      "TVC Motion,"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "building and <BR> implementation",
+    "icon": "code",
+    "image": "/home_2/assets/img/services/2.png",
+    "tags": [
+      "Webflow,",
+      "UI/UX,",
+      "WordPress,",
+      "Shopify,",
+      "PHP,",
+      "React Native,",
+      "iOS,",
+      "Android,",
+      "CRM,"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "seo/marketing and <BR> advertisment",
+    "icon": "bullhorn",
+    "image": "/home_2/assets/img/services/3.png",
+    "tags": [
+      "Ads Campaign,",
+      "SEO,",
+      "PPC,",
+      "Tiktok,",
+      "Instagram,"
+    ]
+  }
+]

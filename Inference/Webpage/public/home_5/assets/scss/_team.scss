@@ -1,0 +1,61 @@
+/* --------------- team style5 --------------- */
+.tc-team-style5 {
+    padding-bottom: 120px;
+    position: relative;
+    z-index: 10;
+    border-radius: 0 0 30px 30px;
+    background-color: #fff;
+
+    .team-card{
+        position: relative;
+        .img{
+            position: relative;
+            height: 400px;
+            border-radius: 30px;
+            overflow: hidden;
+            display: block;
+            &:hover{
+                .icon{
+                    background-color: var(--color-orange1);
+                }
+            }
+            .main-img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            .icon{
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 75px;
+                height: 75px;
+                padding: 20px;
+                text-align: center;
+                border-radius: 0 0 25px 0;
+                background-color: #000;
+                z-index: 10;
+                transition: all 0.3s ease;
+            }
+        }
+        .social-icons{
+            margin-top: 20px;
+            a{
+                color: #999;
+                margin-inline-end: 15px;
+                &:hover{
+                    color: #000;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-team-style5 {
+        .team-card {
+            margin-top: 50px;
+        }
+    }
+}

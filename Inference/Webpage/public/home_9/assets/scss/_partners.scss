@@ -1,0 +1,35 @@
+/* --------------- partners style9 --------------- */
+.tc-partners-style9 {
+
+    .logos{
+        display: flex;
+        .logo{
+            width: 100%;
+            flex-grow: 1;
+            text-align: center;
+            padding: 60px 15px;
+            border-inline-end: 1px solid #9993;
+            border-bottom: 1px solid #9993;
+            &:last-of-type{
+                // border-bottom: 0;
+            }
+            img{
+                height: 60px;
+                max-width: 50%;
+                object-fit: contain;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-partners-style9 {
+        .logos {
+            flex-wrap: wrap;
+            .logo {
+                width: 50%;
+            }
+        }
+    }
+}

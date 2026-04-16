@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "picture": "/home_2/assets/img/testi/testi_cl1.jpg",
+    "name": "Bradley Gordon",
+    "position": "CEO",
+    "at": "Zuma",
+    "logo": "/home_2/assets/img/testi/lg_1.png",
+    "content": "“Swak - A studio with passionate, professional and full creativity. Much more than what i’m expect. Great services, high quality product & affordable price. I’m extremly satisfied!.”",
+    "project": "Zuma",
+    "tags": "branding"
+  },
+  {
+    "id": 2,
+    "picture": "/home_2/assets/img/testi/testi_cl2.jpg",
+    "name": "mason mount",
+    "position": "Vice President",
+    "at": "tekreactjs",
+    "logo": "/home_2/assets/img/testi/lg_2.png",
+    "content": "“Thank you very much for the support of the Swakteam, who have been with our business for more than 3 years. A long journey with many exciting experiences and moments. We are so lucky to have yous. Swak will always be our #1 choice!”",
+    "project": "jamx",
+    "tags": "website, animation"
+  },
+  {
+    "id": 3,
+    "picture": "/home_2/assets/img/testi/testi_cl3.jpg",
+    "name": "andy robertson",
+    "position": "Senior Production",
+    "at": "Javast",
+    "logo": "/home_2/assets/img/testi/lg_1.png",
+    "content": "“I and my team are strong believers that personallized videos are a powerful way to build trusted relationship with our customer, and Swak is helping us do exactly that!.”",
+    "project": "the matter",
+    "tags": "website, illustration"
+  },
+  {
+    "id": 4,
+    "picture": "/home_2/assets/img/testi/testi_cl1.jpg",
+    "name": "Bradley Gordon",
+    "position": "CEO",
+    "at": "Zuma",
+    "logo": "/home_2/assets/img/testi/lg_1.png",
+    "content": "“Swak - A studio with passionate, professional and full creativity. Much more than what i’m expect. Great services, high quality product & affordable price. I’m extremly satisfied!.”",
+    "project": "Zuma",
+    "tags": "branding"
+  }
+]

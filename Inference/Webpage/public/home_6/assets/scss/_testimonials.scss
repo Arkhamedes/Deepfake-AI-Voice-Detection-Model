@@ -1,0 +1,78 @@
+/* --------------- testimonials style6 --------------- */
+.tc-testimonials-style6 {
+
+    .content{
+        padding: 120px 0;
+        border-top: 1px solid #9993;
+
+        .testi-card{
+            padding: 50px;
+            border-radius: 30px;
+            border: 1px solid #999;
+            transition: all 0.3s ease;
+            &:hover{
+                border-color: var(--color-red1);
+            }
+
+            .text{
+                min-height: 250px;
+            }
+        }
+
+                .testimonials-slider6 {
+                    position: relative;
+                    overflow: hidden;
+        
+                    .slider-controls {
+                        position: relative;
+                        background-color: transparent;
+                        border: 1px solid #9993;
+                        padding: 5px 50px;
+                        border-radius: 20px;
+                        display: inline-block;
+                        margin-top: 80px;
+        
+                        .swiper-pagination {
+                            position: relative;
+                            bottom: 0;
+        
+                            .swiper-pagination-bullet {
+                                width: 7px;
+                                height: 7px;
+        
+                                &.swiper-pagination-bullet-active {
+                                    background-color: var(--color-red1);
+                                }
+                            }
+                        }
+        
+                        .swiper-button-next,
+                        .swiper-button-prev {
+        
+                            // position: relative;
+                            &::after {
+                                font-size: 14px;
+                                color: #999;
+                            }
+
+                            &:hover{
+                                &::after{
+                                    color: var(--color-red1);
+                                }
+                            }
+                        }
+                    }
+                }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-testimonials-style6 {
+        .content {
+            .testi-card {
+                padding: 25px;
+            }
+        }
+    }
+}

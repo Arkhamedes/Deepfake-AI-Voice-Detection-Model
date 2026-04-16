@@ -1,0 +1,83 @@
+/* --------------- header style2 --------------- */
+.tc-header-style2 {
+    position: relative;
+    min-height: 100vh;
+    z-index: 10;
+    margin-top: -50px;
+    border-radius: 50px 50px 0 0;
+    overflow: hidden;
+    background-color: #1b1b1e;
+    padding: 550px 0 130px;
+
+    .back-img{
+        position: absolute;
+        left: 20%;
+        top: 0;
+        width: 60%;
+        height: 70%;
+        object-fit: cover;
+        object-position: top;
+        mask-image: url(../img/head_mask.png);
+        mask-size: 90%;
+        mask-repeat: no-repeat;
+        mask-position: 50% 0;
+        opacity: 0.6;
+    }
+
+    .info{
+        position: relative;
+        z-index: 10;
+        text-align: center;
+        h1{
+            font-size: 120px;
+            text-transform: uppercase;
+            line-height: 1.1;
+            font-weight: 500;
+            margin-bottom: 120px;
+        }
+    }
+
+    .brands{
+        position: relative;
+        z-index: 10;
+        text-align: center;
+        .brands-content{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            a{
+                margin-top: 40px;
+                opacity: 0.35;
+                &:hover{
+                    opacity: 1;
+                }
+                img{
+                    max-height: 70px;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-header-style2 {
+        padding: 0 0 130px;
+        .info{
+            margin-top: 130px;
+            h1{
+                font-size: 50px;
+                margin-bottom: 30px;
+            }
+        }
+        .brands .brands-content a img{
+            max-height: 55px;
+        }
+        .back-img {
+            top: 100px;
+            left: 0;
+            width: 100%;
+            height: 25%;
+        }
+    }
+}

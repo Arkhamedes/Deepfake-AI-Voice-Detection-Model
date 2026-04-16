@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "imageLight": "/home_4/assets/img/logos/1.png",
+    "imageDark": "/home_4/assets/img/logos/01.png",
+    "content": "“Swak a studio with passionate, professional and full creativity. A much more than what i’m expect great services, high quality product & affordable price. “",
+    "picture": "/home_4/assets/img/testi_cl1.jpg",
+    "author": "Gordon D. Gowsi",
+    "position": "CEO",
+    "project": "Zumar"
+  },
+  {
+    "id": 2,
+    "imageLight": "/home_4/assets/img/logos/2.png",
+    "imageDark": "/home_4/assets/img/logos/02.png",
+    "content": "“Swak a studio with passionate, professional and full creativity. A much more than what i’m expect great services, high quality product & affordable price. “",
+    "picture": "/home_4/assets/img/testi_cl2.jpg",
+    "author": "Gordon D. Gowsi",
+    "position": "CEO",
+    "project": "Zumar"
+  },
+  {
+    "id": 3,
+    "imageLight": "/home_4/assets/img/logos/3.png",
+    "imageDark": "/home_4/assets/img/logos/03.png",
+    "content": "“Swak a studio with passionate, professional and full creativity. A much more than what i’m expect great services, high quality product & affordable price. “",
+    "picture": "/home_4/assets/img/testi_cl4.jpg",
+    "author": "Gordon D. Gowsi",
+    "position": "CEO",
+    "project": "Zumar"
+  }
+]

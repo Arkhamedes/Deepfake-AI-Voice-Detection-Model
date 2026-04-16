@@ -1,0 +1,112 @@
+/* --------------- header style8 --------------- */
+.tc-header-style8 {
+    position: relative;
+    padding: 280px 0 200px;
+    border-bottom: 1px solid #393939;
+
+    .info{
+        h1{
+            font-size: 90px;
+        }
+    }
+
+    .float-text{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 60px;
+        height: 100%;
+        border-inline-end: 1px solid #393939;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p{
+            white-space: nowrap;
+            transform: rotate(-90deg);
+        }
+    }
+
+    .float-contact-info{
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 60px;
+        height: 100%;
+        border-inline-start: 1px solid #393939;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .cont{
+            white-space: nowrap;
+            transform: rotate(-90deg);
+            a{
+                &:hover{
+                    color: var(--color-green1);
+                }
+            }
+        }
+    }
+
+    .rotate-box{
+        position: absolute;
+        width: 210px;
+        height: 210px;
+        display: block;
+        right: 5%;
+        bottom: -80px;
+        .icon{
+           position: absolute;
+           left: 50%;
+           top: 50%;
+           width: 50px;
+           transform: translate(-45px , -2px);
+        }
+          
+        .rotate-text {
+           animation: rotateText 20s linear infinite;
+           font-weight: bold;
+           text-transform: uppercase;
+           position: absolute;
+           left: calc(50% - 125px);
+            top: 20px;
+            border-radius: 50%;
+        }
+        .rotate-circle svg {
+            width: 210px;
+            height: 210px;
+            fill: #fff;
+            transform: scale(1.25);
+            font-weight: 300;
+        }
+  
+        @keyframes rotateText {
+           0% {
+              transform: rotate(360deg);
+           }
+           100% {
+              transform: rotate(0deg);
+           }
+        }
+     }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-header-style8 {
+        padding: 70px 0 120px;
+        overflow: hidden;
+        .info {
+            h1 {
+                font-size: 50px;
+            }
+            .img{
+                margin-bottom: 30px;
+            }
+        }
+
+        .float-contact-info,
+        .float-text{
+            display: none;
+        }
+    }
+}

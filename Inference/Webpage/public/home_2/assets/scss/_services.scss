@@ -1,0 +1,161 @@
+/* --------------- services style2 --------------- */
+.tc-services-style2 {
+    padding-top: 130px;
+    // background-color: #303034;
+    // border-radius: 50px 50px 0 0;
+
+    .content{
+        position: relative;
+        &::before{
+            position: absolute;
+            content: "";
+            right: 0;
+            top: 0;
+            width: 33.33%;
+            height: 100%;
+            border-right: 1px solid #4e4e54;
+            border-left: 1px solid #4e4e54;
+            pointer-events: none;
+        }
+        &::after{
+            position: absolute;
+            content: "";
+            left: 0;
+            top: 0;
+            width: 33.33%;
+            height: 100%;
+            border-right: 1px solid #4e4e54;
+            border-left: 1px solid #4e4e54;
+            pointer-events: none;
+        }
+    }
+
+    .service-card{
+        position: relative;
+        padding: 0 25px;
+        &:hover{
+            .arrow{
+                color: var(--color-lightGreen1);
+            }
+        }
+        .sub-title{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .icon{
+                width: 50px;
+                height: 50px;
+                line-height: 50px;
+                text-align: center;
+                border-radius: 50%;
+                border: 1px solid #4e4e54;
+                font-size: 20px;
+                flex-shrink: 0;
+            }
+        }
+        .img{
+            margin-top: 60px;
+            height: 270px;
+            border-radius: 30px;
+            overflow: hidden;
+            transition: all 0.3s linear;
+            img {
+                transition: all 0.3s linear;
+            }
+            &:hover {
+                transform: scale(0.95);
+                img {
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+
+    .text-sliders{
+        position: relative;
+        margin-top: 120px;
+        padding-bottom: 120px;
+
+        *{
+            cursor: none;
+        }
+
+        .services-text-slider{
+            a{
+                font-size: 110px;
+                color: #64646c;
+                line-height: 1;
+                font-family: 'Playfair Display', serif;
+                text-transform: uppercase;
+                &:hover{
+                    color: var(--color-lightGreen1);
+                }
+            }
+            .swiper-wrapper {
+                -webkit-transition-timing-function: linear !important;
+                transition-timing-function: linear !important;
+                position: relative;
+            }
+             .swiper-slide{
+                width: max-content !important;
+             }
+        }
+
+        .float_box{
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 140px;
+            height: 140px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #000;
+            border-radius: 50%;
+            transition: opacity 0.2s linear,
+                        transform 0.2s linear;
+            opacity: 0;
+            transform: translate(-50% , -50%) scale(0);
+            z-index: 10;
+            pointer-events: none;
+            p{
+               text-transform: uppercase;
+               font-weight: bold;
+               color: #fff;
+               text-align: center;
+               font-weight: 400;
+            }
+      
+            &.show{
+               opacity: 1;
+               transform: translate(-50% , -50%) scale(1);
+            }
+         }
+    }
+
+}
+
+
+
+@media screen and (max-width: 991px) {
+    .tc-services-style2 {
+        .content {
+            &::after,
+            &::before{
+                display: none;
+            }
+            .service-card{
+                padding: 30px;
+                border: 1px solid #fff3;
+                border-radius: 15px;
+                margin-bottom: 30px;
+                .img{
+                    margin-top: 30px;
+                }
+            }
+        }
+        .text-sliders .services-text-slider a{
+            font-size: 60px;
+        }
+    }
+}

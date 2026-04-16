@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "image": "/home_9/assets/img/products/1.webp",
+    "title": "Clerici Lounge Chair",
+    "price": "$1,499"
+  },
+  {
+    "id": 2,
+    "image": "/home_9/assets/img/products/2.webp",
+    "title": "Level Shelving System",
+    "price": "$1,499"
+  },
+  {
+    "id": 3,
+    "image": "/home_9/assets/img/products/3.webp",
+    "title": "Solace Lounge Chair",
+    "price": "$1,499"
+  },
+  {
+    "id": 4,
+    "image": "/home_9/assets/img/products/4.webp",
+    "title": "Rail Hurdle Chair",
+    "price": "$1,499"
+  },
+  {
+    "id": 5,
+    "image": "/home_9/assets/img/products/5.webp",
+    "title": "Clerici Lounge Chair",
+    "price": "$1,499"
+  },
+  {
+    "id": 6,
+    "image": "/home_9/assets/img/products/6.webp",
+    "title": "Level Shelving System",
+    "price": "$1,499"
+  },
+  {
+    "id": 7,
+    "image": "/home_9/assets/img/products/7.webp",
+    "title": "Solace Lounge Chair",
+    "price": "$1,499"
+  },
+  {
+    "id": 8,
+    "image": "/home_9/assets/img/products/8.webp",
+    "title": "Rail Hurdle Chair",
+    "price": "$1,499"
+  }
+]

@@ -1,0 +1,36 @@
+/* --------------- testimonials style5 --------------- */
+.tc-testimonials-style5 {
+    background-color: #000;
+    color: #fff;
+    margin-top: -30px;
+    position: relative;
+    z-index: 8;
+    border-radius: 0 0 30px 30px;
+    overflow: hidden; 
+
+    .testi-item{
+        padding: 160px 7vw 130px;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .tc-testimonials-slider5 {
+        .swiper-wrapper {
+            -webkit-transition-timing-function: linear !important;
+            transition-timing-function: linear !important;
+            position: relative;
+        }
+    
+        .swiper-slide{
+            width: 550px !important;
+            max-width: 100% !important;
+            border-inline-end: 1px solid #fff2;
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .tc-testimonials-style5 {
+
+    }
+}

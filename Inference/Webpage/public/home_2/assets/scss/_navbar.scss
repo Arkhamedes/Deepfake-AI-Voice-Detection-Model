@@ -1,0 +1,54 @@
+/* --------------- navbar style2 --------------- */
+.tc-top-navbar-style2 {
+    color: #000;
+    text-align: center;
+    padding: 10px 0 60px;
+    background-color: var(--color-lightGreen1);
+
+    .borderd-btn{
+        padding: 3px 10px;
+        border-radius: 30px;
+        border: 1px solid #0003;
+        margin-inline-end: 10px;
+    }
+
+    a{
+        text-decoration: underline;
+        margin-inline-start: 20px;
+    }
+}
+
+
+.tc-navbar-style2{
+    padding: 30px 5vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    .navbar-nav{
+        .nav-item{
+            .nav-link{
+                margin: 0 15px;
+                text-transform: uppercase;
+                color: #fff;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    .dropdown-menu{
+        min-width: 100px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .tc-navbar-style2 {
+        position: relative;
+        background-color: #000;
+    }
+}

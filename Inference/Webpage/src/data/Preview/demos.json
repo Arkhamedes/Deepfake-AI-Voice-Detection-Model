@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "image": "/landing-preview/img/demos/06.jpg",
+    "link": "/home-1",
+    "title": "Agency Portfolio",
+    "isDark": true
+  },
+  {
+    "id": 2,
+    "image": "/landing-preview/img/demos/01.jpg",
+    "link": "/home-1",
+    "title": "Agency Portfolio",
+    "isDark": false
+  },
+  {
+    "id": 3,
+    "image": "/landing-preview/img/demos/1_dr.jpg",
+    "link": "/home-2",
+    "title": "Creative Studio",
+    "isDark": true
+  },
+  {
+    "id": 4,
+    "image": "/landing-preview/img/demos/1.jpg",
+    "link": "/home-2",
+    "title": "Creative Studio",
+    "isDark": false
+  },
+  {
+    "id": 5,
+    "image": "/landing-preview/img/demos/02_dr.jpg",
+    "link": "/home-3",
+    "title": "Modern Startup",
+    "isDark": true
+  },
+  {
+    "id": 6,
+    "image": "/landing-preview/img/demos/02.jpg",
+    "link": "/home-3",
+    "title": "Modern Startup",
+    "isDark": false
+  },
+  {
+    "id": 7,
+    "image": "/landing-preview/img/demos/2_dr.jpg",
+    "link": "/home-4",
+    "title": "Apps Technology",
+    "isDark": true
+  },
+  {
+    "id": 8,
+    "image": "/landing-preview/img/demos/2.jpg",
+    "link": "/home-4",
+    "title": "Apps Technology",
+    "isDark": false
+  },
+  {
+    "id": 9,
+    "image": "/landing-preview/img/demos/03_dr.jpg",
+    "link": "/home-5",
+    "title": "Creative Agency",
+    "isDark": true
+  },
+  {
+    "id": 10,
+    "image": "/landing-preview/img/demos/03.jpg",
+    "link": "/home-5",
+    "title": "Creative Agency",
+    "isDark": false
+  },
+  {
+    "id": 11,
+    "image": "/landing-preview/img/demos/3_dr.jpg",
+    "link": "/home-6",
+    "title": "Business Showcase",
+    "isDark": true
+  },
+  {
+    "id": 12,
+    "image": "/landing-preview/img/demos/3.jpg",
+    "link": "/home-6",
+    "title": "Business Showcase",
+    "isDark": false
+  },
+  {
+    "id": 13,
+    "image": "/landing-preview/img/demos/04_dr.jpg",
+    "link": "/home-7",
+    "title": "Consulting Agency",
+    "isDark": true
+  },
+  {
+    "id": 14,
+    "image": "/landing-preview/img/demos/04.jpg",
+    "link": "/home-7",
+    "title": "Consulting Agency",
+    "isDark": false
+  },
+  {
+    "id": 15,
+    "image": "/landing-preview/img/demos/4_dr.jpg",
+    "link": "/home-8",
+    "title": "Personal Portfolio",
+    "isDark": true
+  },
+  {
+    "id": 16,
+    "image": "/landing-preview/img/demos/4.jpg",
+    "link": "/home-8",
+    "title": "Personal Portfolio",
+    "isDark": false
+  },
+  {
+    "id": 17,
+    "image": "/landing-preview/img/demos/05_dr.jpg",
+    "link": "/home-9",
+    "title": "Shop Home",
+    "isDark": true
+  },
+  {
+    "id": 18,
+    "image": "/landing-preview/img/demos/05.jpg",
+    "link": "/home-9",
+    "title": "Shop Home",
+    "isDark": false
+  },
+  {
+    "id": 19,
+    "image": "/landing-preview/img/demos/5_dr.jpg",
+    "link": "/home-10",
+    "title": "Tech Landing",
+    "isDark": true
+  },
+  {
+    "id": 20,
+    "image": "/landing-preview/img/demos/5.jpg",
+    "link": "/home-10",
+    "title": "Tech Landing",
+    "isDark": false
+  }
+]

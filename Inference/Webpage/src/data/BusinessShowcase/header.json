@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Site of the day",
+    "logo": "/home_6/assets/img/logos/01.png",
+    "year": "2023"
+  },
+  {
+    "id": 2,
+    "title": "Site of the day",
+    "logo": "/home_6/assets/img/logos/02.png",
+    "year": "2022"
+  },
+  {
+    "id": 3,
+    "title": "Site of the day",
+    "logo": "/home_6/assets/img/logos/03.png",
+    "year": "2021"
+  },
+  {
+    "id": 4,
+    "title": "Site of the day",
+    "logo": "/home_6/assets/img/logos/04.png",
+    "year": "2020"
+  },
+  {
+    "id": 5,
+    "title": "Site of the day",
+    "logo": "/home_6/assets/img/logos/05.png",
+    "year": "2019"
+  },
+  {
+    "id": 6,
+    "title": "Site of the day",
+    "logo": "/home_6/assets/img/logos/06.png",
+    "year": "2018"
+  },
+  {
+    "id": 7,
+    "title": "Site of the day",
+    "logo": "/home_6/assets/img/logos/07.png",
+    "year": "2017"
+  }
+]

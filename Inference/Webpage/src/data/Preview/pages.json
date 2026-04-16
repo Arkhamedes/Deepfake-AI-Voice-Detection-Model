@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "image": "/landing-preview/img/pages/1.jpg",
+    "link": "/dark/page-about"
+  },
+  {
+    "id": 2,
+    "image": "/landing-preview/img/pages/01.jpg",
+    "link": "/light/page-about"
+  },
+  {
+    "id": 3,
+    "image": "/landing-preview/img/pages/2.jpg",
+    "link": "/dark/page-services"
+  },
+  {
+    "id": 4,
+    "image": "/landing-preview/img/pages/02.jpg",
+    "link": "/light/page-services"
+  },
+  {
+    "id": 5,
+    "image": "/landing-preview/img/pages/3.jpg",
+    "link": "/dark/page-team"
+  },
+  {
+    "id": 6,
+    "image": "/landing-preview/img/pages/03.jpg",
+    "link": "/light/page-team"
+  },
+  {
+    "id": 7,
+    "image": "/landing-preview/img/pages/4.jpg",
+    "link": "/dark/page-contact"
+  },
+  {
+    "id": 8,
+    "image": "/landing-preview/img/pages/04.jpg",
+    "link": "/light/page-contact"
+  },
+  {
+    "id": 9,
+    "image": "/landing-preview/img/pages/5.jpg",
+    "link": "/dark/portfolio-classic-grid"
+  },
+  {
+    "id": 10,
+    "image": "/landing-preview/img/pages/05.jpg",
+    "link": "/light/portfolio-classic-grid"
+  },
+  {
+    "id": 11,
+    "image": "/landing-preview/img/pages/6.jpg",
+    "link": "/dark/portfolio-grid"
+  },
+  {
+    "id": 12,
+    "image": "/landing-preview/img/pages/06.jpg",
+    "link": "/light/portfolio-grid"
+  },
+  {
+    "id": 13,
+    "image": "/landing-preview/img/pages/7.jpg",
+    "link": "/dark/blog-list"
+  },
+  {
+    "id": 14,
+    "image": "/landing-preview/img/pages/07.jpg",
+    "link": "/light/blog-list"
+  },
+  {
+    "id": 15,
+    "image": "/landing-preview/img/pages/8.jpg",
+    "link": "/dark/blog-half-img"
+  },
+  {
+    "id": 16,
+    "image": "/landing-preview/img/pages/08.jpg",
+    "link": "/light/blog-half-img"
+  },
+  {
+    "id": 17,
+    "image": "/landing-preview/img/pages/9.jpg",
+    "link": "/dark/blog-details"
+  },
+  {
+    "id": 18,
+    "image": "/landing-preview/img/pages/09.jpg",
+    "link": "/light/blog-details"
+  },
+  {
+    "id": 19,
+    "image": "/landing-preview/img/pages/10.jpg",
+    "link": "/dark/project-details1"
+  },
+  {
+    "id": 20,
+    "image": "/landing-preview/img/pages/010.jpg",
+    "link": "/light/project-details1"
+  }
+]

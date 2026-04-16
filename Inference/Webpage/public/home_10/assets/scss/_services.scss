@@ -1,0 +1,71 @@
+/* --------------- services style10 --------------- */
+.tc-services-style10 {
+    position: relative;
+    background-color: #222;
+    color: #fff;
+
+    .services-slider-text{
+        position: relative;
+
+        &::before{
+            position: absolute;
+            content: "";
+            left: 0;
+            top: 0;
+            width: 30%;
+            height: 100%;
+            z-index: 5;
+            pointer-events: none;
+            background-image: linear-gradient(to left , transparent , #222);
+        }
+        &::after{
+            position: absolute;
+            content: "";
+            right: 0;
+            top: 0;
+            width: 30%;
+            height: 100%;
+            z-index: 5;
+            pointer-events: none;
+            background-image: linear-gradient(to right , transparent , #222);
+        }
+
+        .swiper-wrapper {
+            -webkit-transition-timing-function: linear !important;
+            transition-timing-function: linear !important;
+            position: relative;
+            // pointer-events: none;
+        }
+         .swiper-slide{
+            width: max-content !important;
+            position: relative;
+            &::after{
+                position: absolute;
+                content: "/";
+                right: -150px;
+                top: 30px;
+                font-size: 100px;
+                line-height: 1;
+            }
+        }
+    }
+
+
+    .services-slider-text{
+        position: relative;
+        overflow: hidden;
+        border-top: 1px solid #fff2;
+        a{
+            font-size: 120px;
+            font-weight: 700;
+        }
+    }
+
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-services-style10 {
+
+    }
+}

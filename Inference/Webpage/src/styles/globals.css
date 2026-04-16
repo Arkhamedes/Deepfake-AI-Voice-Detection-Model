@@ -1,0 +1,29 @@
+body {
+  padding: 0 !important;
+}
+
+.lg-react-element {
+  display: none;
+}
+
+.lg-backdrop {
+  background-color: rgba(0, 0, 0, 0.8)!important;
+}
+
+.tc-video-style5 .play-btn {
+  z-index: 1;
+}
+
+.tc-services-style6 .service-card .info {
+  overflow: hidden;
+}
+
+.tc-services-style6 .service-card .info .text {
+  transition: all 0.4s ease !important;
+  display: block !important;
+  max-height: 0;
+}
+
+.tc-awards-slider6 .swiper {
+  overflow: visible !important;
+}

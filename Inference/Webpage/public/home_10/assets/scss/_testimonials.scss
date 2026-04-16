@@ -1,0 +1,118 @@
+/* --------------- testimonials style10 --------------- */
+.tc-testimonials-style10 {
+    padding: 120px 0;
+    background-color: #edf0f5;
+
+    .tc-testimonials-slider10{
+        position: relative;
+        overflow: hidden;
+
+        .swiper-slide{
+            opacity: 0 !important;
+            transition: all 0.3s ease;
+
+            .testi-card{
+                .img{
+                    top: -50px;
+                }
+                .info{
+                    bottom: -50px;
+                }
+            }
+
+            &.swiper-slide-active{
+                opacity: 1 !important;
+
+                .testi-card{
+                    .img{
+                        top: 0;
+                    }
+                    .info{
+                        bottom: 0;
+                    }
+                }
+            }
+        }
+
+        .arrows{
+            position: absolute;
+            right: 41.66666667%;
+            bottom: 0;
+            z-index: 50;
+            display: flex;
+            justify-content: flex-end;
+            padding-inline-end: 100px;
+            a{
+                width: 80px;
+                height: 80px;
+                line-height: 80px;
+                text-align: center;
+                background-color: #fff;
+                font-size: 20px;
+                // &:hover{
+                //     background-color: #222;
+                //     color: #fff;
+                // }
+                &:last-of-type{
+                    background-color: #222;
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    .testi-card{
+        .img{
+            position: relative;
+            height: 100%;
+            transition: all 0.5s linear;
+            img{
+                height: 540px;
+                min-height: calc(100% - 80px);
+            }
+        }
+    
+        .info{
+            position: relative;
+            transition: all 0.5s linear;
+            .logo{
+                padding: 80px 60px 60px;
+                img{
+                    height: 70px;
+                }
+            }
+    
+            .info_card{
+                padding: 60px;
+                background-color: #fff;
+                position: relative;
+                z-index: 10;
+                margin-left: -100px;
+                width: calc(100% + 100px);
+    
+                .btm_inf{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .stars{
+                        padding: 8px 20px;
+                        border-radius: 10px;
+                        border: 1px solid #222;
+                        background-color: #fff;
+                        box-shadow: 3px 3px 0 #222;
+                        font-size: 14px;
+                    }
+                }
+            }
+    
+        }
+    }
+
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-testimonials-style10 {
+
+    }
+}

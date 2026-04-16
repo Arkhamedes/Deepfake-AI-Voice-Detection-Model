@@ -1,0 +1,40 @@
+/* --------------- footer style2 --------------- */
+.tc-inner-header-style1 {
+    position: relative;
+    z-index: 10;
+    margin-top: -50px;
+    border-radius: 50px 50px 0 0;
+    padding: 200px 0 150px;
+    color: #000;
+    overflow: hidden;
+    background-color: #f3f3f3;
+    min-height: 500px;
+    .symbol1{
+        position: absolute;
+        top: -10%;
+        left: 20%;
+        height: 60%;
+    }
+    .symbol2{
+        position: absolute;
+        bottom: -25%;
+        right: 20%;
+        height: 60%;
+    }
+    .tc-inner-navbar-style1 .navbar-nav .nav-item .nav-link {
+        color: #000;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .tc-inner-header-style1 {
+        padding-top: 0;
+        min-height: max-content;
+        .tc-inner-navbar-style1 {
+            background-color: #fff;
+        }
+        .fsz-80 {
+            font-size: 50px !important;
+        }
+    }
+}

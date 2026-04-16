@@ -1,0 +1,146 @@
+/* --------------- page-services-style1 --------------- */
+.page-team-member-style1 {
+
+    /* --------------- navbar style1 --------------- */
+    .tc-team-member-header-style1 {
+        position: relative;
+        z-index: 10;
+        margin-top: -50px;
+        border-radius: 50px 50px 0 0;
+        background-image: url(../img/team/team_head.png);
+        background-size: cover;
+        padding: 200px 0 150px;
+        color: #fff;
+        overflow: hidden;
+        &::after{
+            position: absolute;
+            content: "";
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: var(--color-blue1);
+            opacity: 0.7;
+        }
+
+        .head-links {
+            display: flex;
+            align-items: center;
+            h1 {
+                font-size: 100px;
+                flex-shrink: 0;
+                white-space: nowrap;
+            }
+            .line {
+                width: 100%;
+                height: 1px;
+                background-color: #fff5;
+                margin: 0 30px;
+            }
+            .links{
+                    flex-shrink: 0;
+                    white-space: nowrap;
+                    text-transform: uppercase;
+            }
+        }
+
+    }
+
+    /* --------------- tc-team-member-info-style1 --------------- */
+    .tc-team-member-info-style1 {
+        .social-links {
+            margin-top: 40px;
+            a{
+                width: 45px;
+                height: 45px;
+                line-height: 45px;
+                text-align: center;
+                border: 1px solid #9993;
+                margin-inline-end: 15px;
+                border-radius: 50%;
+                &:hover{
+                    border-color: var(--color-blue1);
+                    background-color: var(--color-blue1);
+                    color: #fff;
+                }
+            }
+        }
+
+        .team-member-progress {
+            position: relative;
+            background-color: #f3f3f3;
+            &::after{
+                position: absolute;
+                content: "";
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 70px;
+                background-color: #fff;
+            }
+
+            .progress-card{
+                margin-bottom: 40px;
+                .progress-title{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-bottom: 15px;
+                    .perc{
+                        color: var(--color-blue1);
+                    }
+                }
+    
+                .progress{
+                    height: 8px;
+                    border-radius: 0;
+                    background-color: #fff;
+                    .progress-bar{
+                        background-color: var(--color-blue1);
+                    }
+                }
+            }
+        }
+
+
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 991px) {
+
+    .page-team-member-style1 {
+
+        .fsz-50 {
+            font-size: 25px !important;
+        }
+
+        .tc-team-member-header-style1 {
+            padding-top: 0;
+            .head-links {
+                display: block;
+                h1 {
+                    font-size: 50px;
+                    margin-bottom: 20px;
+                }
+                .line{
+                    display: none;
+                }
+            }
+        }
+
+
+        .tc-team-member-info-style1 .team-member-progress{
+            padding-top: 120px;
+            &::after {
+                display: none;
+            }
+        }
+
+    }
+    
+
+}

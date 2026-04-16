@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "tag": "news",
+    "date": "2 days ago",
+    "author": "Alonso",
+    "picture": "/home_4/assets/img/testi_cl1.jpg",
+    "image": "/home_4/assets/img/blog/1.jpg",
+    "title": "Castro nominated for the Branding of the <BR> Year 2017 by CSSDA"
+  },
+  {
+    "id": 2,
+    "tag": "news",
+    "date": "3 days ago",
+    "image": "/home_4/assets/img/blog/2.jpg",
+    "title": "A mobile app, also known as a mobile app"
+  },
+  {
+    "id": 3,
+    "tag": "news",
+    "date": "3 days ago",
+    "image": "/home_4/assets/img/blog/3.jpg",
+    "title": "Software application designed to run..."
+  },
+  {
+    "id": 4,
+    "tag": "news",
+    "date": "3 days ago",
+    "image": "/home_4/assets/img/blog/4.jpg",
+    "title": "Mobile devices such as smartphones"
+  }
+]

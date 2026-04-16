@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "image": "/home_7/assets/img/icons/ser1.png",
+    "title": "Business Consultancy",
+    "details": "Consultancy in with refers to any kind activity or organization."
+  },
+  {
+    "id": 2,
+    "image": "/home_7/assets/img/icons/ser2.png",
+    "title": "Business Consultancy",
+    "details": "Consultancy in with refers to any kind activity or organization."
+  },
+  {
+    "id": 3,
+    "image": "/home_7/assets/img/icons/ser3.png",
+    "title": "Business Consultancy",
+    "details": "Consultancy in with refers to any kind activity or organization."
+  }
+]

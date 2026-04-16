@@ -1,0 +1,4 @@
+Webpage/.next/cache/webpack/*
+Webpage/node_modules/*
+Voice-Ai/__pycache__/*
+Tweet_AI/__pycache__/*

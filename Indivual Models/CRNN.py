@@ -31,7 +31,7 @@ EPOCHS = 50
 LEARNING_RATE = 1e-3
 RANDOM_SEED = 42
 
-MODEL_SAVE_PATH = "best_crnn_model.pth"
+MODEL_SAVE_PATH = "best_weights/best_crnn_model.pth"
 
 VALID_EXTENSIONS = {".mp3"}
 
@@ -398,16 +398,16 @@ def load_pkl(data_file):
     file = open(data_file, 'rb') 
     dataset = pickle.load(file)
 
-    df_dataset = pd.DataFrame(dataset, columns=["cqcc", "label"])
-    df_dataset.to_csv('dataset.csv')
+    df_dataset = pd.DataFrame(dataset, columns=["mel", "label"])
+    df_dataset.to_csv('csv/dataset.csv')
 
     train_set, test_set = train_test_split(df_dataset, test_size=0.3, random_state=42,stratify=df_dataset['label'] )
 
-    train_set.to_csv('training_data.csv', index=False)
+    train_set.to_csv('csv/training_data.csv', index=False)
 
     test_set ,val_set = train_test_split(test_set, test_size=0.5, random_state=42,stratify=test_set['label'] )
-    test_set.to_csv('test_data.csv', index=False)
-    val_set.to_csv('val_data.csv', index=False)
+    test_set.to_csv('csv/test_data.csv', index=False)
+    val_set.to_csv('csv/val_data.csv', index=False)
     return train_set,test_set,val_set
 
 

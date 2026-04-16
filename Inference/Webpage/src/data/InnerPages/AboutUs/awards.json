@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "host": "Awwwards",
+    "title": "SOTY 2023 - 1st Winner",
+    "project": "Newz - eMagazine Website",
+    "year": 2023
+  },
+  {
+    "id": 2,
+    "host": "CSS Awards",
+    "title": "Top 5 Best UI/UX Design 2023",
+    "project": "Mails Manage Mobile App",
+    "year": 2023
+  },
+  {
+    "id": 3,
+    "host": "waf festival us",
+    "title": "Honor Award Winner",
+    "project": "Newz - eMagazine Website",
+    "year": 2022
+  },
+  {
+    "id": 4,
+    "host": "design awards",
+    "title": "Branding 1st Winner",
+    "project": "Zuma Branding",
+    "year": 2022
+  },
+  {
+    "id": 5,
+    "host": "US Behance 2023",
+    "title": "Top 5 Best Be Portfolio US 2021",
+    "project": "The Matter - Course Online Landing Page",
+    "year": 2021
+  },
+  {
+    "id": 6,
+    "host": "UI/UX global awards",
+    "title": "International UI/UX Design Awards 2020",
+    "project": "Jamx - Jamstact Conf Site",
+    "year": 2020
+  }
+]

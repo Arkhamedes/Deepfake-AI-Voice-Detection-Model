@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "link": "/inner_pages/page_single_project",
+    "frontImage": "/home_1/assets/img/projects/3.jpeg",
+    "backImage": "/home_1/assets/img/projects/1.jpg",
+    "title": "Newz - eMagazine Website",
+    "tags": "Branding, Web Design, Photography",
+    "width": 6
+  },
+  {
+    "id": 2,
+    "link": "/inner_pages/page_single_project",
+    "frontImage": "/home_1/assets/img/projects/1.jpg",
+    "backImage": "/home_1/assets/img/projects/2.jpg",
+    "title": "Mails Manage Mobile App",
+    "tags": "Mobile App Design",
+    "width": 6
+  },
+  {
+    "id": 3,
+    "link": "/inner_pages/page_single_project",
+    "frontImage": "/home_1/assets/img/projects/4.jpg",
+    "backImage": "/home_1/assets/img/projects/3.jpeg",
+    "title": "The Matter - Course Online Landing Page",
+    "tags": "Web Design, Illusatrion, Animation, Marketing",
+    "width": 12
+  },
+  {
+    "id": 4,
+    "link": "/inner_pages/page_single_project",
+    "frontImage": "/home_1/assets/img/projects/5.jpg",
+    "backImage": "/home_1/assets/img/projects/4.jpg",
+    "title": "Unimo Rebranding",
+    "tags": "Branding, Photography",
+    "width": 4
+  },
+  {
+    "id": 5,
+    "link": "/inner_pages/page_single_project",
+    "frontImage": "/home_1/assets/img/projects/6.jpg",
+    "backImage": "/home_1/assets/img/projects/5.jpg",
+    "title": "Zumar Branding",
+    "tags": "Branding",
+    "width": 4
+  },
+  {
+    "id": 6,
+    "link": "/inner_pages/page_single_project",
+    "frontImage": "/home_1/assets/img/projects/5.jpg",
+    "backImage": "/home_1/assets/img/projects/6.jpg",
+    "title": "Jamx - Jamstact Conf Site",
+    "tags": "Web Design, Illustration, Animation",
+    "width": 4
+  }
+]

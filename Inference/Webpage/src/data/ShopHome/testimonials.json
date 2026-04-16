@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "logo_light": "/home_9/assets/img/logos/1.png",
+    "logo_dark": "/home_9/assets/img/logos/01.png",
+    "content": "“Swak a studio with passionate, professional and full creativity. A much more than what i’m expect great services, high quality product & affordable price. “",
+    "picture": "/home_9/assets/img/testi/1.jpg",
+    "name": "Gordon D. Gowsi",
+    "position": "CEO",
+    "at": "Zumar"
+  },
+  {
+    "id": 2,
+    "logo_light": "/home_9/assets/img/logos/2.png",
+    "logo_dark": "/home_9/assets/img/logos/02.png",
+    "content": "“Swak a studio with passionate, professional and full creativity. A much more than what i’m expect great services, high quality product & affordable price. “",
+    "picture": "/home_9/assets/img/testi/2.jpg",
+    "name": "Romrola L.",
+    "position": "CEO",
+    "at": "Zumar"
+  },
+  {
+    "id": 3,
+    "logo_light": "/home_9/assets/img/logos/3.png",
+    "logo_dark": "/home_9/assets/img/logos/04.png",
+    "content": "“Swak a studio with passionate, professional and full creativity. A much more than what i’m expect great services, high quality product & affordable price. “",
+    "picture": "/home_9/assets/img/testi/3.jpg",
+    "name": "Telson N. Nelson",
+    "position": "CEO",
+    "at": "Zumar"
+  }
+]

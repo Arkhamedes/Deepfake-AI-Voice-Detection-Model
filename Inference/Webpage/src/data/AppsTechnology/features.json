@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "icon": "/home_4/assets/img/icons/1.png",
+    "num": "01",
+    "title": "Control Your Data With Just One Click"
+  },
+  {
+    "id": 2,
+    "icon": "/home_4/assets/img/icons/2.png",
+    "num": "02",
+    "title": "Control Your Data With Just One Click"
+  },
+  {
+    "id": 3,
+    "icon": "/home_4/assets/img/icons/3.png",
+    "num": "03",
+    "title": "Control Your Data With Just One Click"
+  },
+  {
+    "id": 4,
+    "icon": "/home_4/assets/img/icons/1.png",
+    "num": "01",
+    "title": "Control Your Data With Just One Click"
+  },
+  {
+    "id": 5,
+    "icon": "/home_4/assets/img/icons/2.png",
+    "num": "02",
+    "title": "Control Your Data With Just One Click"
+  },
+  {
+    "id": 6,
+    "icon": "/home_4/assets/img/icons/3.png",
+    "num": "03",
+    "title": "Control Your Data With Just One Click"
+  }
+]

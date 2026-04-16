@@ -1,0 +1,197 @@
+/* --------------- header style6 --------------- */
+.tc-header-style6 {
+    position: relative;
+    z-index: 20;
+    background-color: #fff;
+    border-radius: 30px 30px 0 0;
+    margin-top: -30px;
+    min-height: 100vh;
+    overflow: hidden;
+    border-bottom: 1px solid #e8e8e8;
+
+    .lines{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        overflow: hidden;
+        span{
+            width: 1px;
+            height: 100%;
+            background-color: #e8e8e8;
+            position: relative;
+            &::after {
+                position: absolute;
+                content: "";
+                left: 0;
+                top: 0;
+                width: 1px;
+                height: 100px;
+                // background-image: linear-gradient(to top , transparent , var(--color-red1) , transparent);
+                animation: lines 10s infinite linear;
+                background-color: var(--color-red1);
+            }
+
+            &:nth-of-type(1){
+                &::after {
+                    animation-delay: -2s;
+                }
+            }
+            &:nth-of-type(2){
+                &::after {
+                    animation-delay: -5s;
+                }
+            }
+            &:nth-of-type(3){
+                &::after {
+                    animation-delay: -8s;
+                }
+            }
+            &:nth-of-type(4){
+                &::after {
+                    animation-delay: -3s;
+                }
+            }
+            &:nth-of-type(5){
+                &::after {
+                    animation-delay: -6s;
+                }
+            }
+        }
+    }
+
+    @keyframes lines {
+        0% {
+            top: 0;
+            opacity: 0;
+        }
+        20% {
+            top: 20%;
+            opacity: 1;
+        }
+        40% {
+            top: 40%;
+            opacity: 1;
+        }
+        60% {
+            top: 60%;
+            opacity: 1;
+        }
+        80% {
+            top: 80%;
+            opacity: 1;
+        }
+        100% {
+            top: 100%;
+            opacity: 0;
+        }
+    }
+
+    // .lines {
+    //     position: absolute;
+    //     left: 0;
+    //     top: 0;
+    //     width: 100%;
+    //     height: 100%;
+    //     display: flex;
+    //     justify-content: center;
+    //     span{
+    //         width: 20%;
+    //         height: 100%;
+    //         &:nth-of-type(odd){
+    //             background-color: #fafafa;
+    //         }
+    //     }
+    // }
+
+    .content{
+        padding: 120px 0;
+        .img{
+            position: relative;
+            width: 440px;
+            height: 440px;
+            max-height: 90vw;
+            max-width: 90vw;
+            border-radius: 50%;
+            overflow: hidden;
+            &::after{
+                position: absolute;
+                content: "";
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background-color: var(--color-red1);
+                opacity: 0.7;
+            }
+            .main-img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            .float-img{
+                position: absolute;
+                z-index: 10;
+                width: 50%;
+                height: 50%;
+                top: 25%;
+                left: 25%;
+                object-fit: contain;
+            }
+        }
+        .info{
+            h1{
+                font-size: 80px;
+            }
+        }
+    }
+
+    .tc-awards-slider6{
+        position: relative;
+        margin-top: 200px;
+
+        .swiper-wrapper {
+            -webkit-transition-timing-function: linear !important;
+            transition-timing-function: linear !important;
+            position: relative;
+        }
+         .swiper-slide{
+            width: max-content !important;
+         }
+
+        
+        .award-card{
+            display: block;
+            border-radius: 30px;
+            background-color: #ffffff;
+            box-shadow: 0px 30px 54px 6px rgba(0, 0, 0, 0.06);
+            padding: 50px;
+            .btm-inf{
+                margin-top: 150px;
+                .logo{
+                    max-height: 25px;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-header-style6 {
+        .content {
+            .img {
+                margin: 0 auto 20px;
+            }
+            .info {
+                h1 {
+                    font-size: 50px;
+                }
+            }
+        }
+    }
+}

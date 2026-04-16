@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "image": "/home_3/assets/img/projects/1.jpg",
+    "title": "McCollone Site",
+    "details": "Delivering a powerful marketing website to show all of the features",
+    "category": "web design & development"
+  },
+  {
+    "id": 2,
+    "image": "/home_3/assets/img/projects/2.jpg",
+    "title": "McCollone Site",
+    "details": "Delivering a powerful marketing website to show all of the features",
+    "category": "web design & development"
+  },
+  {
+    "id": 3,
+    "image": "/home_3/assets/img/projects/3.jpg",
+    "title": "McCollone Site",
+    "details": "Delivering a powerful marketing website to show all of the features",
+    "category": "web design & development"
+  },
+  {
+    "id": 4,
+    "image": "/home_3/assets/img/projects/4.png",
+    "title": "McCollone Site",
+    "details": "Delivering a powerful marketing website to show all of the features",
+    "category": "web design & development"
+  }
+]

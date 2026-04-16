@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "icon": "/home_10/assets/img/icons/ser1.png",
+    "title": "Cloud Computing",
+    "details": "This involves the use of remote servers store, manage & process data, as well as."
+  },
+  {
+    "id": 2,
+    "icon": "/home_10/assets/img/icons/ser2.png",
+    "title": "Cyber Security",
+    "details": "This involves the use of remote servers store, manage & process data, as well as."
+  },
+  {
+    "id": 3,
+    "icon": "/home_10/assets/img/icons/ser3.png",
+    "title": "Data Analytics",
+    "details": "This involves the use of remote servers store, manage & process data, as well as."
+  },
+  {
+    "id": 4,
+    "icon": "/home_10/assets/img/icons/ser4.png",
+    "title": "Business Software",
+    "details": "This involves the use of remote servers store, manage & process data, as well as."
+  }
+]

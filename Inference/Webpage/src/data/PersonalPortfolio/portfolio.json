@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "image": "/home_8/assets/img/works/1.png",
+    "title": "Unimo rebranding",
+    "tags": "Branding, Photography"
+  },
+  {
+    "id": 2,
+    "image": "/home_8/assets/img/works/2.png",
+    "title": "Nico website design",
+    "tags": "UI, UX, Website"
+  },
+  {
+    "id": 3,
+    "image": "/home_8/assets/img/works/3.png",
+    "title": "Lol.ui app design",
+    "tags": "UX, App Design"
+  },
+  {
+    "id": 4,
+    "image": "/home_8/assets/img/works/4.png",
+    "title": "Troma branding",
+    "tags": "Branding"
+  },
+  {
+    "id": 5,
+    "image": "/home_8/assets/img/works/5.png",
+    "title": "Mimbo consultancy",
+    "tags": "Consultancy"
+  }
+]

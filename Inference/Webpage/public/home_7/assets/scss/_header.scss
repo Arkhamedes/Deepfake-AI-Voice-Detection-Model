@@ -1,0 +1,42 @@
+/* --------------- header style7 --------------- */
+.tc-header-style7 {
+    padding: 250px 0 150px;
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    color: #fff;
+    &::after{
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: var(--color-darkBlue1);
+        opacity: 0.95;
+    }
+
+    .info{
+        h1{
+            font-size: 150px;
+            font-weight: 300;
+        }
+    }
+
+    .btm-text{
+        padding-top: 70px;
+        margin-top: 70px;
+        border-top: 1px solid #fff2;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-header-style7 {
+        padding: 120px 0;
+        .info h1 {
+            font-size: 60px;
+        }
+    }
+}

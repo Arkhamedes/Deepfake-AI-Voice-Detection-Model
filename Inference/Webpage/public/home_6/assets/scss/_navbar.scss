@@ -1,0 +1,32 @@
+/* --------------- navbar style6 --------------- */
+.top-navbar-style6 {
+    padding: 15px 0 45px;
+    background-color: #000;
+    color: #fff;
+
+}
+
+.tc-navbar-style6{
+    padding: 30px 0;
+    .navbar-nav{
+        .nav-item{
+            .nav-link{
+                margin: 0 25px;
+                text-transform: uppercase;
+                padding: 0;
+                color: #000;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .tc-navbar-style6 {
+        .navbar-nav .nav-item .nav-link {
+            margin: 15px 0;
+        }
+    }
+}

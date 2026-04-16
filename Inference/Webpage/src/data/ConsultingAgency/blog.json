@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "category": "news",
+    "author": "bill kenney",
+    "title": "Newzin earns site of the month in css award Jul, 2023",
+    "details": "Digital marketplaces can be safely called the future of retail.",
+    "date": "30 Minutes ago",
+    "image": "/home_7/assets/img/blog/1.jpg"
+  },
+  {
+    "id": 2,
+    "category": "inspiration",
+    "author": "moussa",
+    "title": "Swak are champion of Best branding at awards 2023 with zuma",
+    "details": "Digital marketplaces can be safely called the future of retail.",
+    "date": "11 hours ago",
+    "image": "/home_7/assets/img/blog/2.jpg"
+  },
+  {
+    "id": 3,
+    "category": "review",
+    "author": "bill kenney",
+    "title": "Become a freelancer, why not?",
+    "details": "Our work has won many of the best digital-native design awards. It’s really awesome!",
+    "date": "2 days ago",
+    "image": "/home_7/assets/img/blog/3.jpg"
+  },
+  {
+    "id": 4,
+    "category": "inspiration",
+    "author": "moussa",
+    "title": "Swak are champion of Best branding at awards 2023 with zuma",
+    "details": "Digital marketplaces can be safely called the future of retail.",
+    "date": "11 hours ago",
+    "image": "/home_7/assets/img/blog/4.jpg"
+  }
+]

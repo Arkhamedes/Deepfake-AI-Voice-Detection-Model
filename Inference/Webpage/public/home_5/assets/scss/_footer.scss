@@ -1,0 +1,79 @@
+/* --------------- footer style5 --------------- */
+.tc-footer-style5 {
+    background-color: #f5f5f5;
+
+    .foot-content{
+        padding: 120px 0 100px;
+    }
+
+    .mail-card{
+        display: flex;
+        align-items: center;
+        margin-top: 40px;
+        .icon{
+            width: 60px;
+            height: 60px;
+            line-height: 60px;
+            border-radius: 50%;
+            text-align: center;
+            margin-inline-end: 20px;
+            flex-shrink: 0;
+            background-color: #fff;
+            border: 1px solid #9993;
+            font-size: 18px;
+            color: var(--color-orange1);
+        }
+    }
+
+    .half-links {
+        li{
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            a{
+                width: 50%;
+                &:hover{
+                    color: var(--color-orange1);
+                }
+            }
+        }
+    }
+
+    .links {
+        li{
+            margin-bottom: 20px;
+            a{
+                font-weight: 600;
+                &:hover{
+                    color: var(--color-orange1);
+                }
+            }
+        }
+    }
+
+    .foot{
+        padding: 30px 0;
+        border-top: 1px solid #999;
+        .foot-links{
+            a{
+                text-transform: uppercase;
+                margin-inline-start: 15px;
+                &:hover{
+                    color: var(--color-orange1);
+                }
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width: 991px) {
+    .tc-footer-style5 {
+        overflow: hidden;
+        .foot .foot-links a {
+            margin-inline-start: 0;
+            margin-inline-end: 15px;
+            margin-bottom: 15px;
+        }
+    }
+}

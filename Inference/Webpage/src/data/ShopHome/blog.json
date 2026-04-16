@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "image": "/home_9/assets/img/blog1.jpg",
+    "tags": [
+      "news"
+    ],
+    "date": "2 days ago",
+    "title": "Castro nominated for the Branding of the <BR> Year 2017 by CSSDA",
+    "details": "Digital marketplaces can be safely called the future of retail."
+  },
+  {
+    "id": 2,
+    "image": "/home_9/assets/img/blog2.jpg",
+    "tags": [
+      "news",
+      "experience"
+    ],
+    "date": "15 days ago",
+    "title": "Newz earns SOTM in CSS Award in Jul, 2023",
+    "details": "Digital marketplaces can be safely called the future of retail."
+  }
+]

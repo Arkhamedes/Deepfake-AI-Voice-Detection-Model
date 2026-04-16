@@ -1,0 +1,32 @@
+/* --------------- navbar style3 --------------- */
+.tc-navbar-style3 {
+    position: relative;
+    border-bottom: 1px solid #cccccc;
+    padding: 25px 0;
+
+    .navbar-nav{
+        .nav-item{
+            .nav-link{
+                margin: 5px 15px;
+                padding: 0;
+                text-transform: uppercase;
+                &:hover,
+                &.active{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-navbar-style3 {
+        .navbar-nav {
+            margin-top: 15px;
+            .nav-item .nav-link {
+                margin: 5px 0;
+            }
+        }
+    }
+}

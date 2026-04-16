@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "image": "/home_10/assets/img/faq2.jpg",
+    "tag": "technology",
+    "date": "june 21, 2023",
+    "title": "Front-end & back-end expertise from development to delivery helmison..."
+  },
+  {
+    "id": 2,
+    "image": "/home_10/assets/img/blog1.png",
+    "tag": "technology",
+    "date": "june 21, 2023",
+    "title": "Kick-off workshop — how to prepare for a project development launch..."
+  },
+  {
+    "id": 3,
+    "image": "/home_10/assets/img/faq1.jpg",
+    "tag": "technology",
+    "date": "june 21, 2023",
+    "title": "The accent color, for example, is one of the most common and effective..."
+  }
+]

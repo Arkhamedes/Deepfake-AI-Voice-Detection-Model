@@ -1,0 +1,66 @@
+/* --------------- faq style10 --------------- */
+.tc-faq-style10 {
+    padding: 120px 0;
+
+    .vid-side{
+        position: relative;
+        padding-bottom: 200px;
+        .img{
+            width: 70%;
+            height: 420px;
+        }
+        .img2{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 60%;
+            height: 320px;
+            border: 10px solid #fff;
+            z-index: 10;
+        }
+        .play-btn{
+            width: 100px;
+            height: 100px;
+            line-height: 100px;
+            font-size: 18px;
+            text-align: center;
+            border-radius: 50%;
+            background-color: #fff;
+            box-shadow: 5px 10px 20px #0001;
+            position: absolute;
+            top: 110px;
+            left: 70%;
+            transform: translateX(-50%);
+        }
+    }
+
+    .accordion-side{
+        .accordion{
+            .accordion-item{
+                border: 0;
+
+                .accordion-button{
+                    box-shadow: none;
+                    background-color: transparent;
+                    color: #222;
+                    font-size: 20px;
+                    border-bottom: 1px solid #ccc;
+                    padding: 20px 0;           
+                }
+
+                .accordion-body{
+                    background-color: #edf0f5;
+                    padding: 30px;
+                }
+
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-faq-style10 {
+
+    }
+}

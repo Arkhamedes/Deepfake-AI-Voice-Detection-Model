@@ -1,0 +1,26 @@
+/* --------------- partners style4 --------------- */
+.tc-partners-style4 {
+    padding: 120px 0;
+    border-top: 1px solid #9994;
+
+    .logos{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .logo{
+            max-height: 70px;
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-partners-style4 {
+        border-top: 1px solid #999;
+        .logos .logo {
+            max-width: 30%;
+            margin: 15px;
+        }
+    }
+}

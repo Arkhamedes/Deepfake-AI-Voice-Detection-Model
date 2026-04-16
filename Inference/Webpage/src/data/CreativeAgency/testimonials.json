@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "logo": "/home_5/assets/img/logos/noxes.png",
+    "picture": "/home_5/assets/img/team1.jpg",
+    "content": "“Swak a studio with passionate, professional and full creativity. A much more than what i’m expect great services, high quality product & affordable price. “",
+    "author": "Gordon D. Gowsi",
+    "position": "CEO",
+    "project": "Zumar"
+  },
+  {
+    "id": 2,
+    "logo": "/home_5/assets/img/logos/noxes.png",
+    "picture": "/home_5/assets/img/team2.jpg",
+    "content": "“Swak a studio with passionate, professional and full creativity. A much more than what i’m expect great services, high quality product & affordable price. “",
+    "author": "Limbo N. Nelson",
+    "position": "CEO",
+    "project": "Zumar"
+  },
+  {
+    "id": 3,
+    "logo": "/home_5/assets/img/logos/noxes.png",
+    "picture": "/home_5/assets/img/team1.jpg",
+    "content": "“Swak a studio with passionate, professional and full creativity. A much more than what i’m expect great services, high quality product & affordable price. “",
+    "author": "Miranda H. Halim",
+    "position": "CEO",
+    "project": "Zumar"
+  }
+]

@@ -1,0 +1,59 @@
+
+/* --------------- header style1 --------------- */
+.tc-header-style1{
+    position: relative;
+    padding-top: 60px;
+    h1{
+        font-size: 90px;
+    }
+    
+    .rotate-box{
+        position: relative;
+        width: 210px;
+        height: 210px;
+        display: block;
+        .icon{
+           position: absolute;
+           left: 50%;
+           top: 50%;
+           padding: 5px;
+           transform: translate(-50% - 50%);
+        }
+        .rotate-text {
+           animation: rotateText 20s linear infinite;
+           font-weight: bold;
+           text-transform: uppercase;
+           position: absolute;
+           left: calc(50% - 125px);
+            top: 20px;
+            border: 1px solid #9999;
+            border-radius: 50%;
+        }
+        .rotate-circle svg {
+            width: 210px;
+            height: 210px;
+            fill: #000;
+            transform: scale(1.25);
+        }
+  
+        @keyframes rotateText {
+           0% {
+              transform: rotate(360deg);
+           }
+           100% {
+              transform: rotate(0deg);
+           }
+        }
+     }
+}
+
+@media screen and (max-width: 991px){
+   .tc-header-style1 {
+      h1 {
+         font-size: 40px;
+     }
+     .rotate-box{
+      margin: auto;
+     }
+   }
+}

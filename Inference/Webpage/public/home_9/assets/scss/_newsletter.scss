@@ -1,0 +1,77 @@
+/* --------------- newsletter style9 --------------- */
+.tc-newsletter-style9 {
+    position: relative;
+    z-index: 50;
+    &::after{
+        position: absolute;
+        content: "";
+        left: 0;
+        bottom: -1px;
+        background-color: #f6f6f6;
+        width: 100%;
+        height: 50%;
+    }
+
+    .tc-newsletter-card{
+        position: relative;
+        background-color: #222;
+        padding: 100px 5vw;
+        color: #fff;
+        border-radius: 10px;
+        z-index: 50;
+
+        .form{
+            .form-group{
+                display: flex;
+                align-items: center;
+                border-bottom: 1px solid #fff;
+                font-size: 16px;
+                .icon{
+                    flex-shrink: 0;
+                }
+                input{
+                    width: 100%;
+                    padding: 15px 0;
+                    border: 0;
+                    background-color: transparent;
+                    color: #fff;
+                }
+                button{
+                    background-color: transparent;
+                    border: 0;
+                    flex-shrink: 0;
+                    text-transform: uppercase;
+                    color: #fff;
+                }
+            }
+        }
+
+        .lg-letter{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50% , -50%);
+            color: #282828;
+            font-size: calc(50px + 10vw);
+            font-weight: bold;
+            z-index: -1;
+            white-space: nowrap;
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-newsletter-style9 {
+        .tc-newsletter-card {
+            .lg-letter {
+                font-size: 50px;
+            }
+            .form {
+                .form-group {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}  

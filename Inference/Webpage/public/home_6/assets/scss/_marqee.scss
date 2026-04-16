@@ -1,0 +1,76 @@
+/* --------------- marqee style6 --------------- */
+.tc-marqee-slider6 {
+    padding: 150px 0;
+    position: relative;
+    overflow: hidden;
+
+    .item{
+        position: relative;
+        &:hover{
+            .float-circle{
+                opacity: 1;
+                bottom: 80px;
+            }
+        }
+
+        a {
+            font-size: 100px;
+            font-weight: 600;
+            color: #dbdbdb;
+            &:hover{
+                color: #000;
+            }
+        }
+
+        .float-circle{
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 50px;
+            background-image: url(../img/proj1.png);
+            background-size: cover;
+            position: absolute;
+            bottom: 50px;
+            right: 20%;
+            overflow: hidden;
+            opacity: 0;
+            transition: all 0.3s ease;
+            &::after{
+                position: absolute;
+                content: "";
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background-color: var(--color-red1);
+                opacity: 0.8;
+            }
+            i{
+                position: relative;
+                z-index: 10;
+            }
+        }
+
+    }
+
+
+    .swiper-wrapper {
+        -webkit-transition-timing-function: linear !important;
+        transition-timing-function: linear !important;
+        position: relative;
+    }
+
+    .swiper-slide {
+        width: max-content !important;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-marqee-style6 {
+    }
+}

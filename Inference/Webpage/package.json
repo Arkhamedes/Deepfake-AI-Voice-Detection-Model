@@ -1,0 +1,24 @@
+{
+  "name": "swak_nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "apexcharts": "^3.41.0",
+    "eslint": "8.42.0",
+    "eslint-config-next": "13.4.4",
+    "lightgallery": "^2.7.1",
+    "next": "13.4.4",
+    "react": "18.2.0",
+    "react-apexcharts": "^1.4.0",
+    "react-countup": "^6.4.2",
+    "react-dom": "18.2.0",
+    "react-scroll-parallax": "^3.4.2",
+    "swiper": "^8.4.6"
+  }
+}

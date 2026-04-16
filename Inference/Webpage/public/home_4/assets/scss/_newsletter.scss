@@ -1,0 +1,50 @@
+/* --------------- newsletter style4 --------------- */
+.tc-newsletter-style4 {
+    padding-top: 30px;
+    position: relative;
+    margin-top: -30px;
+    border-radius: 0 0 30px 30px;
+    background-color: #000;
+    color: #fff;
+
+    .newsletter-content{
+        padding: 120px 0;
+        border-bottom: 1px solid #666;
+
+        .form{
+            .form-group{
+                position: relative;
+                display: flex;
+                align-items: center;
+                .form-control{
+                    background-color: transparent;
+                    border-radius: 30px;
+                    border: 1px solid #fff;
+                    padding-inline-start: 50px;
+                    min-height: 50px;
+                }
+                .icon{
+                    position: absolute;
+                    left: 25px;
+                    top: 17px;
+                }
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width: 991px) {
+    .tc-newsletter-style4 {
+        .newsletter-content {
+            .form {
+                .form-group {
+                    flex-wrap: wrap;
+                    .button_su {
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

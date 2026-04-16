@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "image": "/home_5/assets/img/work1.png",
+    "title": "Newz - eMagazine Website",
+    "tags": "Branding, Web Design, Photography"
+  },
+  {
+    "id": 2,
+    "image": "/home_5/assets/img/work2.png",
+    "title": "Mails Manage Mobile App",
+    "tags": "Mobile App Design"
+  },
+  {
+    "id": 3,
+    "image": "/home_5/assets/img/work3.png",
+    "title": "Mails Manage Mobile App",
+    "tags": "Mobile App Design"
+  }
+]

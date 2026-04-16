@@ -1,0 +1,25 @@
+/* --------------- footer style5 --------------- */
+.tc-navbar-style5 {
+    padding: 30px 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: transparent;
+    .navbar-nav{
+        .nav-item{
+            .nav-link{
+                font-size: 14px;
+                text-transform: uppercase;
+                margin: 0 15px;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .tc-navbar-style5 {
+        position: relative;
+    }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "icon": "/home_5/assets/img/icons/research.png",
+    "title": "Digital Marketing",
+    "details": "Includes developing & executing advertising campaigns across various media platforms"
+  },
+  {
+    "id": 2,
+    "icon": "/home_5/assets/img/icons/concept.png",
+    "title": "Product Design",
+    "details": "Includes developing & executing advertising campaigns across various media platforms"
+  },
+  {
+    "id": 3,
+    "icon": "/home_5/assets/img/icons/implement.png",
+    "title": "App Development",
+    "details": "Includes developing & executing advertising campaigns across various media platforms"
+  },
+  {
+    "id": 4,
+    "icon": "/home_5/assets/img/icons/handover.png",
+    "title": "24/7 Support",
+    "details": "Includes developing & executing advertising campaigns across various media platforms"
+  }
+]

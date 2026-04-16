@@ -1,0 +1,86 @@
+/* --------------- approach style3 --------------- */
+.tc-approach-style3 {
+    padding: 70px 0;
+    
+
+    .tabs{
+        display: flex;
+        justify-content: space-around;
+        padding: 0 20px;
+        a{
+            position: relative;
+            font-size: 21px;
+            width: 25%;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &::after{
+                position: absolute;
+                content: "";
+                left: -20px;
+                top: 0;
+                width: calc(100% + 40px);
+                height: 100%;
+                border: 1px solid #ccc;
+                border-radius: 100%;
+                transition: all 0.3s ease;
+            }
+            span{
+                transform: rotate(-90deg);
+                transition: all 0.3s ease;
+            }
+
+            &:hover{
+                &::after{
+                    border-color: var(--color-blue1);
+                }
+                span{
+                    color: var(--color-blue1);
+                }
+            }
+        }
+    }
+
+    .accordion{
+        .accordion-item {
+            border: 0;
+            border-bottom: 1px solid #9993;
+            .accordion-button {
+                color: #000;
+                box-shadow: none;
+                background: transparent;
+                font-size: 17px;
+                &:not(.collapsed){
+                    background: transparent;
+                    color: var(--color-blue1);
+                    &::after{
+                        content: "\f068";
+                    }
+                }
+                &::after{
+                     background: transparent;
+                     content: "\f067";
+                     font-family: "Font Awesome 5 Pro";
+                     font-weight: 300;
+                     transform: rotate(0);
+                }
+            }
+            .accordion-body{
+                background-color: #e9e8ee;
+                .text{
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-approach-style3 {
+        .tabs {
+            margin-bottom: 50px;
+        }
+    }
+}

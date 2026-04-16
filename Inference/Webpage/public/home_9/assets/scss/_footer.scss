@@ -1,0 +1,29 @@
+/* --------------- footer style9 --------------- */
+.tc-footer-style9 {
+    background-color: #222;
+    color: #fff;
+
+    .footer-content{
+        padding: 100px 0;
+        a{
+            color: #c6c6c6;
+        }
+        .half-links{
+            li{
+                display: flex;
+                margin-bottom: 20px;
+                a{
+                    width: 40%;
+                    align-items: center;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-footer-style9 {
+        
+    }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "image": "/home_7/assets/img/proj1.jpg",
+    "tag": "stripe",
+    "tags": "Consultancy, Contract",
+    "title": "Dropo product hilix consult"
+  },
+  {
+    "id": 2,
+    "image": "/home_7/assets/img/proj2.jpg",
+    "tag": "stripe",
+    "tags": "Consultancy, Contract",
+    "title": "Start by identifying your area"
+  },
+  {
+    "id": 3,
+    "image": "/home_7/assets/img/proj3.jpg",
+    "tag": "stripe",
+    "tags": "Consultancy, Contract",
+    "title": "Include case studies or examples"
+  },
+  {
+    "id": 4,
+    "image": "/home_7/assets/img/proj4.jpg",
+    "tag": "stripe",
+    "tags": "Consultancy, Contract",
+    "title": "Alixi to demonstrate your skills"
+  }
+]

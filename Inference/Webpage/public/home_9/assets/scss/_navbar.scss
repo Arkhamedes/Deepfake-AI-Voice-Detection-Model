@@ -1,0 +1,108 @@
+/* --------------- navbar style9 --------------- */
+
+.tc-top-navbar-style9{
+    position: relative;
+    z-index: 999;
+    .brd-light{
+        border-color: #fff2 !important;
+    }
+}
+
+.tc-navbar-style9 {
+    padding: 20px 0;
+    .navbar-nav{
+        .nav-item{
+            .nav-link{
+                text-transform: uppercase;
+                margin-inline-end: 40px;
+                font-size: 14px;
+                text-transform: uppercase;
+                padding: 0;
+                font-weight: 500;
+                color: #222;
+                &:hover,
+                &.active{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    .nav-side{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        
+        .shop-icons{
+            a{
+                position: relative;
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                text-align: center;
+                border: 1px solid #9993;
+                border-radius: 50%;
+                margin-inline-start: 5px;
+                &:hover{
+                    background-color: #222;
+                    border-color: #222;
+                    color: #fff;
+                    .num{
+                        background-color: #fff;
+                        color: #222;
+                    }
+                }
+
+                .num{
+                    position: absolute;
+                    right: -3px;
+                    top: -3px;
+                    width: 15px;
+                    height: 15px;
+                    line-height: 15px;
+                    text-align: center;
+                    border-radius: 50%;
+                    background-color: #222;
+                    color: #fff;
+                    font-size: 10px;
+                    box-shadow: 0 0 5px #0001;
+                    transition: all 0.3s ease;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .tc-top-navbar-style9 {
+        .n-link {
+            width: 49%;
+            margin: 0 !important;
+            border-right: 0 !important;
+            border-bottom: 1px solid #fff2;
+        }
+        .soc-links{
+            width: 49%;
+            margin: 0 !important;
+            border-right: 0 !important;
+        }
+    }
+
+    .tc-navbar-style9 {
+        .row{
+            width: calc(100% + 30px) !important;
+        }
+        .navbar-brand {
+            width: calc(100% - 60px);
+        }
+        .navbar-nav {
+            margin: 20px 15px;
+            padding: 20px 15px;
+            background-color: #f9f9f9;
+            border-radius: 15px;
+            .nav-item .nav-link{
+                margin: 15px 0 !important;
+            }
+        }
+    }
+}

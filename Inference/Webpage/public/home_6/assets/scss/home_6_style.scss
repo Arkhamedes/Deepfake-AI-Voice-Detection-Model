@@ -1,0 +1,174 @@
+/* ========= [ * page-home_3 ]  =========*/
+
+// footer
+@import 'footer';
+
+// navbar
+@import 'navbar';
+
+// header
+@import 'header';
+
+// about
+@import 'about';
+
+// services
+@import 'services';
+
+// projects
+@import 'projects';
+
+// marqee
+@import 'marqee';
+
+// clients
+@import 'clients';
+
+// revenue
+@import 'revenue';
+
+// testimonials
+@import 'testimonials';
+
+
+// ------------ home style ------------
+.home-style6 {
+    color: #000;
+    // font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 500;
+    .container-fluid{
+        padding: 0 4vw;
+    }
+
+    h1,h2,h3,h4,h5,.sub_font{
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .dr_item {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 991px) {
+    .home-style6 {
+        br{
+            display: none;
+        }
+        .fsz-50 {
+            font-size: 30px !important;
+        }
+        .fsz-40 {
+            font-size: 25px !important;
+        }
+        .mb-90 {
+            margin-bottom: 40px !important;
+        }
+        .fsz-30 {
+            font-size: 18px !important;
+        }
+        .fsz-22 {
+            font-size: 15px !important;
+        }
+    }
+}
+
+// --------------- dark theme --------------
+.home-style6.dark-theme {
+    color: #fff;
+    background-color: #222;
+
+    .lt_item {
+        display: none;
+    }
+
+    .dr_item {
+        display: block;
+    }
+
+    .tc-header-style6 {
+        background-color: #2e2e31;
+        border-color: #fff1;
+    }
+
+    .tc-header-style6 .tc-awards-slider6 .award-card {
+        background-color: #28282b;
+        box-shadow: 0 0 15px #fff2;
+    }
+
+    .tc-header-style6 .lines span,
+    .tc-about-style6 .lines span {
+        background-color: #fff1;
+    }
+
+    .tc-navbar-style6 .navbar-nav .nav-item .nav-link {
+        color: #fff;
+    }
+
+    .butn{
+        color: #fff;
+        border-color: #fff3 !important;
+    }
+
+    .tc-header-style6 .tc-awards-slider6 .award-card .btm-inf .logo,
+    .tc-clients-style6 .logos .logo img {
+        filter: drop-shadow(2px 0px 0px #fff);
+    }
+
+    .tc-about-style6 {
+        background-image: none;
+        background-color: #2e2e31;
+    }
+
+    .color-666,
+    .tc-services-style6 .service-card .info .text,
+    .tc-footer-style6 .footer-container .content .links a {
+        color: #ccc !important;
+    } 
+
+    .color-000,
+    .tc-services-style6 .service-card .float-icon {
+        color: #fff !important;
+    }
+
+    .tc-services-style6,
+    .tc-clients-style6 {
+        background-color: #222;
+    }
+
+    .tc-footer-style6 {
+        background-color: #2e2e31;
+        .footer-container {
+            background-color: #222;
+        }
+    }
+
+    .tc-services-style6 .service-card {
+        background-color: #fff1;
+    }
+
+    .tc-marqee-slider6 .item a {
+        color: #fff2;
+        &:hover {
+            color: #fff;
+        }
+    }
+
+    .tc-revenue-style6 {
+        background-image: linear-gradient(to bottom, #2e2e31, transparent);
+    }
+
+    .bg-white {
+        background-color: #000!important;
+    }
+
+    .tc-revenue-style6 .chart-side {
+        color: #000;
+    }
+
+    .tc-revenue-style6 .chart-side .apexcharts-yaxis *,
+    .tc-revenue-style6 .chart-side .apexcharts-xaxis * {
+        fill: #fff;
+    }
+
+}

@@ -1,0 +1,99 @@
+/* --------------- product-single-style1 --------------- */
+.page-product-single-style1 {
+
+    .tc-product-single-style1 {
+        padding: 120px 0;
+
+        .btns {
+            display: flex;
+            align-items: center;
+            .add-more {
+                padding: 20px;
+                border: 1px solid #9993;
+                color: #999;
+                margin-inline-end: 20px;
+                .qt{
+                    min-width: 40px;
+                    text-align: center;
+                    color: #000;
+                    font-weight: bold;
+                }
+            }
+            .add-btn {
+                padding: 20px 40px;
+                background-color: var(--color-blue1);
+                color: #fff;
+                font-weight: bold;
+                margin-inline-end: 20px;
+                &:hover{
+                    background-color: #000;
+                }
+            }
+            .fav-btn {
+                width: 60px;
+                height: 60px;
+                line-height: 60px;
+                text-align: center;
+                border: 1px solid #9993;
+                color: #000;
+                font-size: 18px;
+                &:hover,
+                &.active {
+                    background-color: red;
+                    color: #fff;
+                }
+            }
+        }
+
+        .sub-info {
+            .nav-pills {
+                .nav-item {
+                    .nav-link {
+                        width: 100%;
+                        padding: 17px 20px;
+                        border: 1px solid #9993;
+                        margin-bottom: 15px;
+                        border-radius: 0;
+                        text-align: start;
+                        font-weight: bold;
+                        color: #000;
+                        &:hover,
+                        &.active {
+                            background-color: var(--color-blue1);
+                            color: #fff;
+                            span {
+                                color: #fff;
+                            }
+                        }
+                        span {
+                            color: var(--color-blue1);
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+
+}
+
+@media screen and (max-width: 991px) {
+    .page-product-single-style1 {
+        .tc-product-single-style1 {
+            .btns {
+                .add-more,
+                .add-btn {
+                    font-size: 13px;
+                    margin-inline-end: 10px;
+                    padding: 10px 15px;
+                }
+                .fav-btn {
+                    height: 40px;
+                    width: 40px;
+                    line-height: 40px;
+                }
+            }
+        }
+    }
+}

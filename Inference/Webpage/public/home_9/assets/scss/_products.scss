@@ -1,0 +1,21 @@
+/* --------------- products style9 --------------- */
+.tc-products-style9 {
+    padding: 120px 0;
+
+    .product-card{
+        position: relative;
+        margin-top: 60px;
+        .img{
+            height: 310px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-products-style9 {
+        
+    }
+}

@@ -1,0 +1,20 @@
+/* --------------- brands style7 --------------- */
+.tc-brands-style7 {
+    .brands-content{
+        padding: 100px 0;
+        border-top: 2px solid #9993;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        a{
+            max-width: 100px;
+            margin: 20px 0;
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .tc-brands-style7 {
+
+    }
+}

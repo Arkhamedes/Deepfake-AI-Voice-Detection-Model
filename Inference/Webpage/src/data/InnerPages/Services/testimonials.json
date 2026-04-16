@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "picture": "/inner_pages/assets/img/services/user1.jpg",
+    "name": "Alonso D.",
+    "brand": "/inner_pages/assets/img/services/brand1.png",
+    "content": "“ Architects use their creativity with design skills to create build structures that are functional, aesthetically pleasing. ”"
+  },
+  {
+    "id": 2,
+    "picture": "/inner_pages/assets/img/services/user2.jpg",
+    "name": "William S.",
+    "brand": "/inner_pages/assets/img/services/brand2.png",
+    "content": "“ Architects use their creativity with design skills to create build structures that are functional, aesthetically pleasing. ”"
+  }
+]

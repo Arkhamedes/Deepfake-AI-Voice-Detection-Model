@@ -1,0 +1,125 @@
+/* --------------- services style8 --------------- */
+.tc-services-style8 {
+    padding: 120px 0;
+
+    .tab-content{
+        h2{
+            font-size: 58px;
+            min-height: 370px;
+        }
+
+        .img{
+            position: relative;
+            height: 650px;
+            &::before{
+                position: absolute;
+                content: "";
+                right: 0;
+                bottom: 0;
+                width: 100px;
+                height: 100px;
+                background-color: #222;
+                z-index: 5;
+                pointer-events: none;
+            }
+            &::after{
+                position: absolute;
+                content: "";
+                right: 100px;
+                bottom: -100px;
+                width: 100px;
+                height: 100px;
+                background-color: var(--color-green1);
+                z-index: 5;
+                pointer-events: none;
+            }
+        }
+    }
+
+    .nav-pills{
+        padding-top: 100px;
+        max-height: 350px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        .nav-item{
+            &:last-of-type{
+                .nav-link{
+                    border: 0;
+                }
+            }
+            .nav-link{
+                padding: 15px 0;
+                border-bottom: 1px solid #393939;
+                font-size: 20px;
+                color: #bcbcbc;
+                background-color: transparent;
+                border-radius: 0;
+                color: #fff;
+                font-weight: 300;
+                display: block;
+    
+                span{
+                    margin-inline-start: -30px;
+                    transition: all 0.3s ease;
+                }
+                .icon{
+                    opacity: 0;
+                    transition: all 0.3s ease;
+                }
+    
+                &:hover,
+                &.active{
+                    span{
+                        margin-inline-start: 0;
+                    }
+                    .icon{
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+
+        &::-webkit-scrollbar {
+            height: 0;
+            width: 0;
+            background: transparent;
+            border-radius: 0;
+        }
+        
+        &::-webkit-scrollbar-thumb {
+            background: transparent;
+            -webkit-border-radius: 0;
+            border-radius: 10px;
+        }
+        
+        &::-webkit-scrollbar-corner {
+            background: transparent;
+            border-radius: 10px;
+        }
+    }
+}
+
+@media (min-width: 1400px){
+    .tc-services-style8 .tab-content .img {
+        width: 1270px !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .tc-services-style8 {
+        .nav-pills{
+            padding-top: 0;
+            margin-bottom: 30px;
+        }
+        .tab-content {
+            h2 {
+                font-size: 30px;
+                min-height: max-content;
+                margin-bottom: 30px;
+            }
+            .img{
+                height: 350px;
+            }
+        }
+    }
+}

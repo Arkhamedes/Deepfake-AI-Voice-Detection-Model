@@ -1,0 +1,93 @@
+/* --------------- testimonials style2 --------------- */
+.tc-testimonials-style2 {
+    position: relative;
+    padding: 130px 0 0;
+    background-color: var(--color-lightGreen1);
+    color: #000;
+    overflow: hidden;
+
+    .title{
+        .arrows{
+            button{
+                width: 45px;
+                height: 45px;
+                border-radius: 50%;
+                background: transparent;
+                border: 1px solid #3c3b3a;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                font-size: 18px;
+                &:hover{
+                    background-color: #3c3b3a;
+                    color: #fff;
+                }
+            }
+        }
+    }
+    
+    .tc-testimonials-slider2{
+        position: relative;
+        padding-bottom: 100px;
+        
+        .swiper-pagination{
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            display: flex;
+            align-items: center;
+
+            .swiper-pagination-bullet{
+                flex-grow: 1;
+                margin: 0;
+                border-radius: 0;
+                height: 1px;
+                background-color: #3c3b3a;
+                &.swiper-pagination-bullet-active{
+                    height: 7px;
+                }
+            }
+        }
+    }
+
+    .testi-card{
+        padding: 50px;
+        border-radius: 20px;
+        background-color: #fff;
+
+        .client-det{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 60px;
+
+            .client{
+                display: flex;
+                align-items: center;
+                .icon{
+                    width: 45px;
+                    height: 45px;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    margin-inline-end: 15px;
+                    flex-shrink: 0;
+                }
+            }
+
+            .logo{
+                width: 150px;
+                height: 45px;
+                border: 1px solid #9995;
+                text-align: end;
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .tc-testimonials-style2 {
+        .testi-card {
+            padding: 30px;
+        }
+    }
+}
